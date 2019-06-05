@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="./js/vocab.js"></script>
+        <script src="./js/pages.js"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Japanese tutorials</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1 class="centerText">Japanese Class</h1>
+            <nav>
+                <ul>
+                    <li><a href="javascript:nav.orientation()">OT.Why we should study Japanese</a></li>
+                </ul>
+                <div class="clearB"></div>
+                <ul class="floatL">
+                    <caption>Level3</caption>
+                    <li><a href="javascript:nav.day01()">day01.Level2 important review</a></li>
+                    <li><a href="javascript:nav.chap19()">chapter19.た form of verb</a></li>
+                    <li><a href="javascript:nav.chap20()">chapter20.experience,ability,listing</a></li>
+                    <li><a href="javascript:nav.chap21()">chapter21.negate form and its usages</a></li>
+                    <li><a href="javascript:nav.chap22()">chapter22.</a></li>
+                </ul>
+                <ul class="floatL">
+                    <caption>Level4</caption>
+                    <li></li>
+                </ul>
+                <ul class="floatL">
+                    <caption>N2</caption>
+                    <li></li>
+                </ul>
+                <ul class="floatL">
+                    <caption>Vocabulary</caption>
+                    <li><a href="javascript:vocabs.chap20()">chapter20 vocab.</a></li>
+                    <li><a href="javascript:vocabs.chap21()">chapter21 vocab.</a></li>
+                    <li><a href="javascript:vocabs.chap22()">day05.</a></li>
+                </ul>
+                <div class="clearB"></div>
+            </nav>
+        </div>
+        <article id="mainArticle">
+            
+        </article>
+       
+        <aside>
+            <div class="clearB"></div>
+            <section class="floatL">
+                <h4 class="centerText">Hirgana</h4>
+                <div class="centerItem">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>a</th>
+                            <th>k</th>
+                            <th>s</th>
+                            <th>t</th>
+                            <th>n</th>
+                            <th>h</th>
+                            <th>m</th>
+                            <th>y</th>
+                            <th>r</th>
+                            <th>w</th>
+                            <th>n</th>
+                        </tr>
+                        <tr>
+                            <th>a</th>
+                            <td>あ</td>
+                            <td>か</td>
+                            <td>さ</td>
+                            <td>た</td>
+                            <td>な</td>
+                            <td>は</td>
+                            <td>ま</td>
+                            <td>や</td>
+                            <td>ら</td>
+                            <td>わ</td>
+                            <td>ん</td>
+                        </tr>
+                        <tr>    
+                            <th>i</th>
+                            <td>い</td>
+                            <td>き</td>
+                            <td>し</td>
+                            <td>ち</td>
+                            <td>に</td>
+                            <td>ひ</td>
+                            <td>み</td>
+                            <td></td>
+                            <td>り</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>u</th>
+                            <td>う</td>
+                            <td>く</td>
+                            <td>す</td>
+                            <td>つ</td>
+                            <td>ぬ</td>
+                            <td>ふ</td>
+                            <td>む</td>
+                            <td>ゆ</td>
+                            <td>る</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>e</th>
+                            <td>え</td>
+                            <td>け</td>
+                            <td>せ</td>
+                            <td>て</td>
+                            <td>ね</td>
+                            <td>へ</td>
+                            <td>め</td>
+                            <td></td>
+                            <td>れ</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>o</th>
+                            <td>お</td>
+                            <td>こ</td>
+                            <td>そ</td>
+                            <td>と</td>
+                            <td>の</td>
+                            <td>ほ</td>
+                            <td>も</td>
+                            <td>よ</td>
+                            <td>ろ</td>
+                            <td>を</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="floatL">
+                <h4 class="centerText">Katagana</h4>
+                <div class="centerItem">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>a</th>
+                            <th>k</th>
+                            <th>s</th>
+                            <th>t</th>
+                            <th>n</th>
+                            <th>h</th>
+                            <th>m</th>
+                            <th>y</th>
+                            <th>r</th>
+                            <th>w</th>
+                            <th>n</th>
+                        </tr>
+                        <tr>
+                            <th>a</th>
+                            <td>ア</td>
+                            <td>カ</td>
+                            <td>サ</td>
+                            <td>タ</td>
+                            <td>ナ</td>
+                            <td>ハ</td>
+                            <td>マ</td>
+                            <td>ヤ</td>
+                            <td>ラ</td>
+                            <td>ワ</td>
+                            <td>ン</td>
+                        </tr>
+                        <tr>    
+                            <th>i</th>
+                            <td>イ</td>
+                            <td>キ</td>
+                            <td>シ</td>
+                            <td>チ</td>
+                            <td>ニ</td>
+                            <td>ヒ</td>
+                            <td>ミ</td>
+                            <td></td>
+                            <td>リ</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>u</th>
+                            <td>ウ</td>
+                            <td>ク</td>
+                            <td>ス</td>
+                            <td>ツ</td>
+                            <td>ヌ</td>
+                            <td>フ</td>
+                            <td>ム</td>
+                            <td>ユ</td>
+                            <td>ル</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>e</th>
+                            <td>エ</td>
+                            <td>ケ</td>
+                            <td>セ</td>
+                            <td>テ</td>
+                            <td>ネ</td>
+                            <td>へ</td>
+                            <td>メ</td>
+                            <td></td>
+                            <td>レ</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>o</th>
+                            <td>オ</td>
+                            <td>コ</td>
+                            <td>ソ</td>
+                            <td>ト</td>
+                            <td>ノ</td>
+                            <td>ホ</td>
+                            <td>モ</td>
+                            <td>ヨ</td>
+                            <td>ロ</td>
+                            <td>ヲ</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <div class="clearB"></div>
+            <ul>
+                <caption>Another important Grammars</caption>
+                <li><span class="emphBlue">Verb</span>
+                     can work like <span class="emphBlue">adjective to nouns</span>.
+                </li>
+                <li>~before : <span class="emphBlue">basic form</span>+前に</li>
+                <li>~After  : <span class="emphBlue">た form</span>+後で</li>
+                <li>planned object or action：<span class="emphBlue">basic form</span>+Noun
+                    <ul>
+                        <li>行くひと:갈 사람</li>
+                        <li>買う物: 살 물건</li>
+                        <li>行く所: 갈 장소</li>
+                    </ul>
+                </li>
+                <li>done object or action：<span class="emphBlue">た form</span>+Noun
+                    <ul>
+                        <li>行ったひと: 간 사람</li>
+                        <li>買った物: 산 물건</li>
+                        <li>行った所: 간 장소</li>
+                    </ul>
+                </li>
+                <li>物(もの)　vs 事(こと)
+                    <ul>
+                        <li><span class="emphRed">物(もの)</span>
+                             refers to <span classs="emphBlue">things specific or not.</span>
+                            <ul>
+                                <caption>Examples</caption>
+                                <li><span classs="emphBlue">食べる</span><span class="emphRed">もの</span>:something to eat</li>
+                            </ul>
+                        </li>
+                        <li><span class="emphRed">事(こと)</span>
+                            refers to <span classs="emphBlue">action, or state.</span>
+                            <ul>
+                                <caption>Examples</caption>
+                                <li><span classs="emphBlue">する</span><span class="emphRed">こと</span>：something to do</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>また vs　まだ
+                    <ul>
+                        <li><span class="emphRed">また</span>
+                                refers to <span classs="emphBlue"> more.</span>
+                            <ul>
+                                <caption>Examples</caption>
+                                <li><span class="emphRed">また</span><span classs="emphBlue">あした！</span>:see you tomorrow!</li>
+                            </ul>
+                        </li>
+                        <li><span class="emphRed">まだ</span>
+                            refers to <span classs="emphBlue">yet.</span>
+                            <ul>
+                                <caption>Examples</caption>
+                                <li><span class="emphRed">まだ</span><span classs="emphBlue">です</span>：it is not yet.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+    </body>
+</html>
