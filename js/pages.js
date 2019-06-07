@@ -687,7 +687,175 @@ const pages = {
             </table>\
         </section>',
     chap22:
-        '',
+        '<h2 class="leftText">chapter22.Expression of obligation,its negation, taboo.</h2>\
+        <section>\
+            <h3 class="centerText">Verb ない form</h3>\
+            <blockquote>\
+                <ol>\
+                    <li><span class="emphBlue">Verb</span> + ない</li>\
+                    <li><span class="emphRed">Drop</span> the <span class="emphBlue">ない</span></li>\
+                    <li><span class="emphRed">Keep the rest of the part</span>.</li>\
+                    <li>refer to previous chapter for conversion of verbs.</li>\
+                </ol>\
+            </blockquote>\
+            <ul>\
+                <li><fg t="つか">使</fg>う:to use ->\
+                    <span class="emphBlue"><fg t="つか">使</fg>わ</span>\
+                    <span class="emphRed">ないで</span>\
+                </li>\
+                <li><fg t="はな">話</fg>す:to talk ->\
+                    <span class="emphBlue"><fg t="はな">話</fg>さ</span>\
+                    <span class="emphRed">ないで</span>\
+                </li>\
+                <li><fg t="け">消</fg>す: to turn off ->\
+                    <span class="emphBlue"><fg t="け">消</fg>さ</span>\
+                    <span class="emphRed">ないで、</span>\
+                </li>\
+                <li><fg t="あそ">遊</fg>ぶ: to hang out ->\
+                    <span class="emphBlue"><fg t="あそ">遊</fg>ば</span>\
+                    <span class="emphRed">ないで</span>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Expression of taboo and state and request form of taboo expression</h3>\
+            <blockquote>\
+                <span class="emphBlue">Verb ない form</span> +　<span class="emphRed">ないで</span> \
+                <ol>\
+                    <caption>It has two meanings of</caption>\
+                    <li>expression of taboo</li>\
+                    <li>expression of state</li>\
+                </ol>\
+                Request form:<br>\
+                <span class="emphBlue">Verb ない form</span> +　<span class="emphRed">ないでください。</span>\
+                ：please don&rsquo;t ~ \
+            </blockquote>\
+            <h4 class="leftText">1)Expression of taboo</h4>\
+            <ul>\
+                <li><fg t="じゅうぎょう">授業</fg><fg t="じゅう">中</fg>はけたいを\
+                    <span class="emphBlue"><fg t="つか">使</fg>わ</span>\
+                    <span class="emphRed">ないで、ないでください。</span>\
+                    <div class="indented">\
+                        Please don&rsquo;t use phone during the class.\
+                    </div>\
+                </li>\
+                <li><fg t="だれ">誰</fg>かが<fg t="はな">話</fg>す<fg t="とき">時</fg>は\
+                    <span class="emphBlue"><fg t="はな">話</fg>さ</span>\
+                    <span class="emphRed">ないで、ないでください。</span>\
+                    <div class="indented">\
+                        Please don&rsquo;t talk while others speaking.\
+                    </div>\
+                </li>\
+                <li><fg t="あか">赤</fg>い<fg t="しんほう">新祝</fg>には\
+                    <span class="emphBlue"><fg t="ある">歩</fg>いか</span>\
+                    <span class="emphRed">ないで、ないでください。</span>\
+                    <div class="indented">\
+                        Please don&rsquo;t walk on the red signal.\
+                    </div>\
+                </li>\
+                <li><fg t="こい">恋</fg><fg t="びと">人</fg>のハートを\
+                    <span class="emphBlue"><fg t="き">傷</fg>つけら</span>\
+                    <span class="emphRed">ないで、ないでください。</span>\
+                    <div class="indented">\
+                        Please don&rsquo;t hurt boy/girlfriend.\
+                    </div>\
+                </li>\
+            </ul>\
+            <h4 class="leftText">2)Expression of state</h4>\
+            <ul>\
+                <li><fg t="ゆうべ">昨夜</fg>は\
+                    <fg t="でんき">天気</fg>を\
+                    <span class="emphBlue"><fg t="け">消</fg>さ</span>\
+                    <span class="emphRed">ないで、</span>\
+                    <fg t="ね">寝</fg>ました。\
+                    <div class="indented">\
+                        The weather was not good last night so I slept.\
+                    </div>\
+                </li>\
+                <li><fg t="ゆうべ">昨夜</fg>はお<fg t="なか">腹</fg>\
+                    がいぱいですながら<fg t="ゆしょうく">夕食</fg>を\
+                    <span class="emphBlue"><fg t="た">食</fg>べ</span>\
+                    <span class="emphRed">ないで、</span>\
+                    <fg t="で">出</fg>かけました。\
+                    <div class="indented">\
+                        I was full last night so I skipped dinner and went out.\
+                    </div>\
+                </li>\
+                <li><fg t="あした">明日</fg>は<fg t="やす">休</fg>みながら\
+                    <span class="emphBlue"><fg t="べんきょう">勉強</fg>をし</span>\
+                    <span class="emphRed">ないで</span>\
+                    <fg t="あそ">遊</fg>びます。\
+                    <div class="indented">\
+                        Since tomorrow is the holiday, I will not study and gonna hang out with my friend.\
+                    </div>\
+                </li>\
+                <li><fg t="いま">今</fg>は<fg t="ひま">暇</fg>じゃないから\
+                    <span class="emphBlue"><fg t="あそ">遊</fg>ば</span>\
+                    <span class="emphRed">ないで</span>\
+                    <fg t="つと">勤</fg>めます。\
+                    <div class="indented">\
+                        Now is not a free time so I work.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+                <h3 class="centerText">Expression of obligation and its negation</h3>\
+                <blockquote>\
+                    Default Expression:\
+                    <div class="indented">\
+                        <span class="emphBlue">Verb ない form</span> +　<span class="emphRed">なければなりません。</span>\
+                        ：I have to ~\
+                    </div>\
+                    Negated Form:\
+                    <div class="indented">\
+                        <span class="emphBlue">Verb ない form</span> +　<span class="emphRed">なくでもいいです。</span>\
+                        ：You do not have to ~\
+                    </div>\
+                </blockquote>\
+                <ul>\
+                    <li><fg t="ご">午</fg><fg t="ぜん">前</fg><fg t="く">九</fg><fg t="じ">時</fg>までに<fg t="かいしゃ">会社</fg>へ\
+                        <span class="emphBlue"><fg t="い">行</fg>か</span>\
+                        <span class="emphRed">なければなりません。</span>\
+                        <ul>\
+                            <li>\
+                                <fg t="ご">午</fg><fg t="ぜん">前</fg><fg t="く">九</fg><fg t="じ">時</fg>までに<fg t="かいしゃ">会社</fg>へ\
+                                <span class="emphBlue"><fg t="い">行</fg>か</span>\
+                                <span class="emphRed">なくでもいいです。</span>\
+                            </li>\
+                        </ul>\
+                        <div class="indented">\
+                            I have to be at work at 9 am.-> I don&rsquo;t have to be at work at 9 am.\
+                        </div>\
+                    </li>\
+                    <li><fg t="あした">明日</fg>はここに\
+                        <span class="emphBlue"><fg t="こ">来</fg></span>\
+                        <span class="emphRed">なければなりません。</span>\
+                        <ul>\
+                            <li><fg t="あした">明日</fg>はここに\
+                                <span class="emphBlue"><fg t="こ">来</fg></span>\
+                                <span class="emphRed">なくでもいいです。</span>\
+                            </li>\
+                        </ul>\
+                        <div class="indented">\
+                            you have to come here by tomorrow -> you don&rsquo;t have to come here by tomorrow.\
+                        </div>\
+                    </li>\
+                    <li>こんな<fg t="こと">事</fg>に\
+                        <span class="emphBlue"><fg t="あやま">誤</fg>ら</span>\
+                        <span class="emphRed">なければなりません。</span>\
+                        <ul>\
+                            <li>こんな<fg t="こと">事</fg>に\
+                                <span class="emphBlue"><fg t="あやま">誤</fg>ら</span>\
+                                <span class="emphRed">なくでもいいです。</span>\
+                            </li>\
+                        </ul>\
+                        <div class="indented">\
+                            I have to apologize for this matter. -> I don&rsquo;t have to apologize for this matter.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </section>',
     chap23:
         '',
     chap24:

@@ -167,6 +167,9 @@ const vocab = {
             <li><span class="emphRed">とうして</span>:<span class="emphBlue">Why</span>\
                 <div class="practiceSentence"></div>\
             </li>\
+            <li><span class="emphRed">ちかてつ</span>:<span class="emphBlue">subway</span>\
+            <div class="practiceSentence"></div>\
+        </li>\
         </ul>\
         <ul class="floatL">\
             <li><span class="emphRed">これから</span>:<span class="emphBlue">앞으로</span>\
