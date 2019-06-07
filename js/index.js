@@ -36,6 +36,13 @@ const vocabs = {
     },
     chap22:()=>{
         $("#mainArticle").html(vocab.chap22);
+        funcs.practiceSentence();
+    },
+    chap23:()=>{
+        $("#mainArticle").html(vocab.chap23);
+    },
+    chap24:()=>{
+        $("#mainArticle").html(vocab.chap24);
     }
 }
 

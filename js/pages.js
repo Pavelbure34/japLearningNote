@@ -687,5 +687,10 @@ const pages = {
             </table>\
         </section>',
     chap22:
-        ''
+        '',
+    chap23:
+        '',
+    chap24:
+        '',
+    
 };
