@@ -22,6 +22,15 @@ const nav = {
     },
     chap22:()=>{
         $("#mainArticle").html(pages.chap22);
+    },
+    chap23:()=>{
+        $("#mainArticle").html(pages.chap23);
+    },
+    chap24:()=>{
+        $("#mainArticle").html(pages.chap24);
+    },
+    chap25:()=>{
+        $("#mainArticle").html(pages.chap25);
     }
 };
 
@@ -40,9 +49,13 @@ const vocabs = {
     },
     chap23:()=>{
         $("#mainArticle").html(vocab.chap23);
+        funcs.practiceSentence();
     },
     chap24:()=>{
         $("#mainArticle").html(vocab.chap24);
+    },
+    chap25:()=>{
+        $("#mainArticle").html(vocab.chap25);
     }
 }
 

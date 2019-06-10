@@ -223,7 +223,85 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap23:
-        '',
+        ' <h2 class="leftText">chapter23 vocab.</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+             <li><span class="emphRed"><fg t="さとう">砂糖</fg></span>:<span class="emphBlue">sugar</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">お<fg t="だい">大</fg><fg t="じ">事</fg>に</span>:\
+                 <span class="emphBlue">greeting used by doctors and pharmacists</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="で">出</fg>る</span>:<span class="emphBlue">to exit</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="おく">遅</fg>れる</span>:<span class="emphBlue">to be late</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="はら">払</fg>う</span>:<span class="emphBlue">to pay</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">ゴミ</span>:<span class="emphBlue">trash</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="あ">開</fg>ける</span>:<span class="emphBlue">to open</span>\
+                 <div class="practiceSentence"></div></li>  \
+             <li><span class="emphRed">お<fg t="ふ">風</fg><fg t="ろ">呂</fg>に<fg t="はい">入</fg>る</span>:\
+                 <span class="emphBlue">take a bath</span>\
+                 <div class="practiceSentence"></div></li>'+ 
+             '<li><span class="emphRed"><fg t="でんわ">電話</fg>に<fg t="で">出</fg>る</span>:\
+                 <span class="emphBlue">to answer the phone</span>\
+                 <div class="practiceSentence"></div></li>   \
+             <li><span class="emphRed"><fg t="よやく">予約</fg></span>:<span class="emphBlue">reservation</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">キャンスル</span>:<span class="emphBlue">to cancel</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="よしゅう">予習</fg>をする</span>:<span class="emphBlue">to review</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">やめる</span>:<span class="emphBlue">to stop(action,habit)</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="しかく">資格</fg>を<fg t="と">取る</fg></span>:<span class="emphBlue">to earn certificate</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="う">受</fg>ける</span>:<span class="emphBlue">to take test</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="どうが">動画</fg></span>:<span class="emphBlue">video</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="はじ">始</fg>まる</span>:<span class="emphBlue">to be started</span>\
+                 <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+             <li><span class="emphRed"><fg t="い">入</fg>れる</span>:<span class="emphBlue">to put</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="し">閉</fg>める</span>:<span class="emphBlue">to close</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="で">出</fg>かける</span>:<span class="emphBlue">to go out</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="だ">出</fg>す</span>:<span class="emphBlue">to submit(homewor)</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="しちゃく">試着</fg>する</span>:<span class="emphBlue">to try on (clothes)</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="す">捨</fg>てる</span>:<span class="emphBlue">to throw away</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="ひ">火</fg></span>:<span class="emphBlue">fire</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">お<fg t="なか">腹</fg>が<fg t="す">空</fg>く</span>:\
+                 <span class="emphBlue">(stomach) hungry</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="もう">申</fg>し<fg t="こ">込</fg>む</span>:<span class="emphBlue">to register</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed">パーティ</span>:<span class="emphBlue">party</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="ふくしゅう">復習</fg>をする</span>:<span class="emphBlue">to preview</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="こんど">今度</fg></span>:<span class="emphBlue">this time</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="かよ">通</fg>う</span>:<span class="emphBlue">to go (regularly school,gym,etc)</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="はじ">始</fg>める</span>:<span class="emphBlue">to start</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="らい">来</fg><fg t="げつ">月</fg></span>:<span class="emphBlue">next month</span>\
+                 <div class="practiceSentence"></div></li>\
+             <li><span class="emphRed"><fg t="らい">来</fg><fg t="しゅ">週</fg></span>:<span class="emphBlue">next week</span>\
+                 <div class="practiceSentence"></div></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap24:
+        '',
+    chap25:
         ''
 }

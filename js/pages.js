@@ -860,5 +860,6 @@ const pages = {
         '',
     chap24:
         '',
-    
+    chap25:
+        ''
 };
