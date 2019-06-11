@@ -223,7 +223,7 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap23:
-        ' <h2 class="leftText">chapter23 vocab.</h2>\
+        '<h2 class="leftText">chapter23 vocab.</h2>\
         <div class="clearB"></div>\
         <ul class="floatL">\
              <li><span class="emphRed"><fg t="さとう">砂糖</fg></span>:<span class="emphBlue">sugar</span>\
@@ -301,7 +301,63 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap24:
-        '',
+        '<h2 class="leftText">chapter24 vocab.</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><emphR t="red"><fg t="けんこ">健康</fg></emphR>:<emphB t="blue">health</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="なに">何</fg>か</emphR>:<emphB t="blue">what</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">いつか</emphR>:<emphB t="blue">when</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">どこか</emphR>:<emphB t="blue">where</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="いっしょうけんめい">一生懸命</fg></emphR>:<emphB t="blue">열심히</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">がんばる</emphR>:<emphB t="blue">to cheer up</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">この<fg t="ごろ">頃</fg></emphR>:<emphB t="blue">lately</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="ごろ">太</fg>る</emphR>:<emphB t="blue">to get fat</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">やせる</emphR>:<emphB t="blue">to get slim</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="き">聞</fg>いて<fg t="み">見</fg>る</emphR>:<emphB t="blue">to ask</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="たから">宝</fg>くじに<fg t="あ">当</fg>たる</emphR>:<emphB t="blue">to get lottery</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="いや">嫌</fg>だ</emphR>:<emphB t="blue">dislike</emphB>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><emphR t="red">ために</emphR>:<emphB t="blue"~>위해서</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">つもり</emphR>:<emphB t="blue">intention</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="うんてんめんきょ">運転免許</fg></emphR>:<emphB t="blue">driving license</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="おも">思</fg>う</emphR>:<emphB t="blue">to think</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">ずっと</emphR>:<emphB t="blue">쭉</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="おそ">遅</fg>く</emphR>:<emphB t="blue">adverb form of late</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="なら">習</fg>う</emphR>:<emphB t="blue">to learn</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">つまらない</emphR>:<emphB t="blue">not fun</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">お<fg t="かね">金</fg><fg t="も">持</fg>ち</emphR>:<emphB t="blue">the rich person</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="し">四</fg><fg t="がつ">月</fg></emphR>:<emphB t="blue">April</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="ことし">今年</fg></emphR>:<emphB t="blue">this year</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="きら">嫌</fg>い</emphR>:<emphB t="blue">hate</emphB>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap25:
+        '',
+    chap26:
         ''
 }

@@ -857,7 +857,7 @@ const pages = {
                 </ul>\
             </section>',
     chap23:
-        ' <h2 class="leftText">chapter23.Will, Be going to</h2>\
+        '<h2 class="leftText">chapter23.Will, Be going to</h2>\
         <section>\
             <h3 class="centerText">Will and Won&rsquo;t</h3>\
             <blockquote>\
@@ -1025,7 +1025,223 @@ const pages = {
             </ul>\
         </section>',
     chap24:
-        '',
+        '<h2 class="leftText">chapter24.hypothetical and advisory expressions</h2>\
+        <section>\
+            <h3 class="centerText">Hypothetical Expression: ~하면</h3>\
+            <blockquote>\
+                <ul>\
+                    <li>When Purely hypotheical:\
+                        <div class="clearB"></div>\
+                        <ul class="floatL">\
+                            <li><emphB t="b">Noun</emphB> +\
+                                <emphR t="b">だった/じゃなかった</emphR></li>\
+                            <li><emphB t="b">Adjective な type(without だ)</emphB>　+\
+                                <emphR t="b">なった/じゃなかった</emphR></li>\
+                            <li><emphB t="b">Adjective い　type(without い)</emphB> + \
+                                <emphR t="b">かった/くなかった</emphR></li>\
+                            <li><emphB t="b">Verb た form</emphB> +　<emphR t="b">た</emphR> /\
+                                <emphB t="b"> Verb ない form</emphB> + <emphR t="b">なかった</emphR></li>\
+                        </ul>\
+                        <ul class="floatL">\
+                            <li style="list-style-type: none;">.</li>\
+                            <li style="list-style-type: none;">+<emphR t="r">ら</emphR></li>\
+                            <li style="list-style-type: none;">.</li>\
+                            <li style="list-style-type: none;">.</li>\
+                        </ul>\
+                        <div class="clearB"></div>\
+                    </li>\
+                </ul>\
+            </blockquote>\
+            <ul>\
+                <caption>When using hypothetical expression, here are the most frequently used following expressions.</caption>\
+                <li>recommendation:<emphB t="b">~ませんか、~ましょうか、～ましょう</emphB>\
+                    <ul>\
+                        <caption>Examples.</caption>\
+                        <li>\
+                            もし<fg t="あめ">雨</fg>が<fg t="ふ">降</fg>ら<emphR t="b">なかったら</emphR><fg t="さんぽ">散歩</fg>\
+                            に<fg t="い">行</fg>き<emphB t="b">ましょうか</emphB>。\
+                            <div class="indented">\
+                                If it is not raining, shall we go for a walk?\
+                            </div>\
+                        </li>\
+                        <li>\
+                            <fg t="じゅうぎょう">授業</fg>が<fg t="お">終</fg>わ<emphR t="b">ったら</emphR>コーヒー<fg t="の">飲</fg>みにカフェへ\
+                            <fg t="い">行</fg>き<emphB t="b">ましょう</emphB>。\
+                            <div class="indented">\
+                                If the class is over, shall we go drinking coffee?\
+                            </div>\
+                        </li>\
+                        <li>\
+                            <fg t="さむ">寒</fg><emphR t="b">くなかったら</emphR><fg t="いえ">家</fg>で<fg t="やす">休</fg>み<emphB t="b">ましょう</emphB>。\
+                            <div class="indented">\
+                                If it is not cold, let&rsquo;s take a rest at home.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>expressing want:<emphB t="b">~ほしいです、~たいです</emphB>\
+                    <ul>\
+                        <caption>Examples.</caption>\
+                        <li>\
+                            <fg t="さむ">寒</fg><emphR t="b">くなかったら</emphR><fg t="そと">外</fg>でスノウファイトがし<emphB t="b">たいです</emphB>。\
+                            <div class="indented">\
+                                If it is not cold, I want to play snowfight outside.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="さめ">雨</fg>が<fg t="ふ">降</fg>ら<emphR t="b">なかったら</emphR><fg t="そと">外</fg>で\
+                            キャチボールをし<emphB t="b">たいです</emphB>。\
+                            <div class="indented">\
+                                If it is not raining, I want to play catch outside.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="わたし">私</fg>がヒーロー<emphR t="b">だったら</emphR>アイアンマンの<fg t="じしき">次式</fg>\
+                            が<emphB t="b">ほしいです</emphB>。\
+                            <div class="indented">\
+                                If I am a super hero, I want the intelligence of Ironman.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>Allowing:<emphB t="b">Verb た form + でもいいです/ Verb ない form + なくでもいいです</emphB>。\
+                    <ul>\
+                        <caption>Examples.</caption>\
+                        <li>\
+                            <fg t="さむ">寒</fg><emphR t="b">くなかったら</emphR><fg t="そと">外</fg>でキャチボールをし<emphB t="b">でもいいです</emphB>。\
+                            <div class="indented">\
+                                If it is not cold, it is okay to play catch outside.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="あめ">雨</fg>が<fg t="ふ">降</fg>ら<emphR t="b">なかったら</emphR><fg t="そと">外</fg>で<fg t="うんどう">運動</fg>\
+                            し<emphB t="b">なくでもいいです</emphB>。\
+                            <div class="indented">\
+                                If it is not raining, it is okay not to exercise outisde.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="わたし">私</fg>がヒーロー<emphR t="b">だったら</emphR><fg t="すこ">少</fg>し<fg t="やす">休</fg>ん<emphB t="b">\
+                                でもいいです</emphB>。\
+                            <div class="indented">\
+                                If I am a super hero, it is okay to take a little break.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>Expressing intention,will, plan: <emphB t="b">Verb Regular Form ~つもりです</emphB>。\
+                    <emphB t="b">Veb 의지 form + と思います/と思っています</emphB>。\
+                    <ul>\
+                        <caption>Examples.</caption>\
+                        <li>\
+                            もし<fg t="せ">背</fg>が<fg t="たか">高</fg><emphR t="b">かったら</emphR>バスケットをする<emphB t="b">つもりです</emphB>。\
+                            <div class="indented">\
+                                If you are taller than 6 foot, I have an intention of playing basketball.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="こども">子供</fg>の<fg t="とき">時</fg>に<fg t="かえ">帰</fg>っ<emphR t="b">たら</emphR>\
+                            <fg t="やっきゅうせんしゅう">野球選手</fg>になろ<emphB t="b">と<fg t="おも">思</fg>っています</emphB>。\
+                            <div class="indented">\
+                                If I go back to childhood,I would be a baseball player.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            もし<fg t="はや">早</fg>く<fg t="つ">着</fg><emphR t="b">かったら</emphR>もと\
+                            <fg t="あそ">遊</fg>ぶ<emphB t="b">つもりです</emphB>。\
+                            <div class="indented">\
+                                If I arrive early,I have an intention of playing more.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>Command:<emphB t="b">Verb た form + でください</emphB>/<emphB t="b">Verb ない form + ないでください。</emphB>\
+                    <ul>\
+                        <caption>Examples.</caption>\
+                        <li>\
+                            もし<fg t="せ">背</fg>が180cmより<fg t="たか">高</fg><emphR t="b">かったら</emphR>\
+                            このビル<fg t="なか">中</fg>では<fg t="き">気</fg>よつけ<emphB t="b">でください</emphB>。\
+                            <div class="indented">\
+                                If you are taller than 6 foot,please be careful inside of this building.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            まし<fg t="こころ">心</fg>も<fg t="ことば">言葉</fg>があ<emphR t="b">ったら</emphR>すぐに<fg t="い">言</fg>っ<emphB t="b">\
+                                でください</emphB>。\
+                            <div class="indented">\
+                                If you have something to say, please say it soon.\
+                            </div>\
+                        </li>\
+                        <li>\
+                            <fg t="ね">寝</fg>るのがむすかし<emphR t="b">かったら</emphR><fg t="こんや">今夜</fg>はコーヒーを<fg t="の">飲</fg>ま\
+                            <emphB t="b">ないでください</emphB>。\
+                            <div class="indented">\
+                                If you have difficulty sleeping, dont&rsquo;t drink coffee tonight.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Advisory Expression</h3>\
+            <blockquote>\
+                    <div>\
+                        When Advising:\
+                        <div class="clearB"></div>\
+                        <ul class="floatL">\
+                            <li><emphB t="b">Regualr Verb form</emphB></li>\
+                            <li><emphB t="b">Adjective い　type Regular form</emphB></li>\
+                            <li><emphB t="b">Adjective な type(without だ)</emphB></li>\
+                        </ul>\
+                        <ul class="floatL">\
+                            <li style="list-style-type: none;">.</li>\
+                            <li style="list-style-type: none;">+<emphR t="r">なら</emphR></li>\
+                            <li style="list-style-type: none;">.</li>\
+                        </ul>\
+                        <div class="clearB"></div>\
+                    </div>\
+                    +\
+                    <div>\
+                        <ul>\
+                            <li><emphB t="b">Verb た form</emphB> + <emphR t="b">たほうがいいです</emphR>：\
+                                It is better to ~</li>\
+                            <li><emphB t="b">Verb ない form</emphB> + <emphR t="b">ないほうがいいです</emphR>：\
+                                You better not to ~</li>\
+                        </ul>\
+                    </div>\
+            </blockquote>\
+            <ul>\
+                <caption>Examples</caption>\
+                <li><fg t="に">行</fg>く<emphR t="r">なら</emphR>いま<fg t="に">行</fg>っ<emphR t="b">たほうがいいです</emphR>。\
+                    <div class="indented">\
+                        If you want to go, you better go soon.\
+                    </div>\
+                </li>\
+                <li><fg t="さむ">寒</fg>い<emphR t="r">なら</emphR>コートを<fg t="き">着</fg>っ<emphR t="b">たほうがいいです</emphR>。\
+                    <div class="indented">\
+                        If cold,you better wear coat.\
+                    </div>\
+                </li>\
+                <li><fg t="さむ">寝</fg>ったい<emphR t="r">なら</emphR>コーヒーを<fg t="の">飲</fg>ま<emphR t="b">ないほうがいいです</emphR>。\
+                    <div class="indented">\
+                        If you want to sleep,you better not drink coffe.\
+                    </div>\
+                </li>\
+                <li><fg t="つか">疲</fg>れ<emphR t="r">なら</emphR><fg t="はや">早</fg>く<fg t="ね">寝</fg>っ<emphR t="b">たほうがいいです</emphR>。\
+                    <div class="indented">\
+                        If tired,you better sleep early.\
+                    </div>\
+                </li>\
+                <li>プレゼント<emphR t="r">なら</emphR>ネクタイをあげっ<emphR t="b">たほうがいいです</emphR>。\
+                    <div class="indented">\
+                        for present,you better buy neck tie.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap25:
+        '',
+    chap26:
         ''
 };
