@@ -1241,7 +1241,398 @@ const pages = {
             </ul>\
         </section>',
     chap25:
-        '',
+        '<h2 class="leftText">chapter25.regular(보통 반말형) expression and ~んです。</h2>\
+        <section>\
+            <h3 class="centerText">From Polite expression to regular expression</h3>\
+            <ol>\
+                <caption>We use <emphR r="t">regular expression</emphR> when...</caption>\
+                <li>have a conversation with <emphB r="t">someone younger, subordinates, or friend</emphB></li>\
+                <li>write in <emphB r="t">diary, essay, and any article</emphB>.</li>\
+            </ol>\
+            <blockquote>\
+                <ul>\
+                    <h4 class="leftText">Present tense</h4>\
+                    <ul>\
+                        <li>Noun\
+                            <table>\
+                                <tr>\
+                                    <th>Present</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~です。</emphR></td>\
+                                    <td><emphR t="t">~だ。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~じゃありません。</emphR></td>\
+                                    <td><emphR t="t">~じゃない。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>Verb\
+                            <table>\
+                                <tr>\
+                                    <th>Present</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~です。</emphR></td>\
+                                    <td><emphR t="t">Regular Verb Form</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~ません。</emphR></td>\
+                                    <td><emphR t="t">Verb ない form + ~ない。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>い type adjective\
+                            <table>\
+                                <tr>\
+                                    <th>Present</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~です。</emphR></td>\
+                                    <td><emphR t="t">Regular adjective itself。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~くありません。</emphR></td>\
+                                    <td><emphR t="t">adjective ない form + ~くない。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>な type adjective\
+                            <table>\
+                                <tr>\
+                                    <th>Present</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~です。</emphR></td>\
+                                    <td><emphR t="t">~だ。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~じゃありません。</emphR></td>\
+                                    <td><emphR t="t">~じゃない。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                    </ul>\
+                </ul>\
+                <ul>\
+                    <h4 class="leftText">Past tense</h4>\
+                    <ul>\
+                        <li>Noun\
+                            <table>\
+                                <tr>\
+                                    <th>Past</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~でしす。</emphR></td>\
+                                    <td><emphR t="t">~だった。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~じゃありませんでした。</emphR></td>\
+                                    <td><emphR t="t">~じゃなかった。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>Verb\
+                            <table>\
+                                <tr>\
+                                    <th>Past</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~ました。</emphR></td>\
+                                    <td><emphR t="t">Verb た Form + た。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~ませんでした。</emphR></td>\
+                                    <td><emphR t="t">Verb ない form + ~なかった。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>い type adjective\
+                            <table>\
+                                <tr>\
+                                    <th>Past</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~でした。</emphR></td>\
+                                    <td><emphR t="t">adjective without い ＋~なかった。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~くありませんでした。</emphR></td>\
+                                    <td><emphR t="t">adjective without い  + ~くなかった。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                        <li>な type adjective\
+                            <table>\
+                                <tr>\
+                                    <th>Past</th>\
+                                    <th>Polite</th>\
+                                    <th>Regular</th>\
+                                </tr>\
+                                <tr>\
+                                    <th>Positive</th>\
+                                    <td><emphR t="t">~でしす。</emphR></td>\
+                                    <td><emphR t="t">~だった。</emphR></td>\
+                                </tr>\
+                                <tr>\
+                                    <th>Negated</th>\
+                                    <td><emphR t="t">~じゃありませんでした。</emphR></td>\
+                                    <td><emphR t="t">~じゃなかった。</emphR></td>\
+                                </tr>\
+                            </table>  \
+                        </li>\
+                    </ul>\
+                </ul>\
+            </blockquote>\
+            <ul>   \
+                <h4 class="leftText">Examples</h4>\
+                <li>Present-verb use　\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="あした">明日</fg><fg t="あそ">遊</fg>ぶ？　</li>\
+                                <li>うん。<fg t="あした">明日</fg><fg t="あそ">遊</fg>ぶ。</li>\
+                                <li>ううん。<fg t="あした">明日</fg><fg t="あそ">遊</fg>ばない。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li></li>\
+                                <li></li>\
+                                <li></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>Past-verb use\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="きの">昨日</fg><fg t="あそ">遊</fg>んだ？</li>\
+                                <li>うん。<fg t="きの">昨日</fg><fg t="あそ">遊</fg>んだ。</li>\
+                                <li>ううん。<fg t="きの">昨日</fg><fg t="あそ">遊</fg>ばなかった。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li></li>\
+                                <li></li>\
+                                <li></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>Present-noun use\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="あした">明日</fg><fg t="しけん">試験</fg>？</li>\
+                                <li>うん。<fg t="あした">明日</fg>は<fg t="しけん">試験</fg>だ。</li>\
+                                <li>ううん。<fg t="あした">明日</fg>は<fg t="しけん">試験</fg>じゃない。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="">Is test tomorrow?</fg></li>\
+                                <li><fg t="">yep.test is tomorrow.</fg></li>\
+                                <li><fg t="">nope. test is not tomorrow.</fg></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>Past-noun use　\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li>おととい<fg t="しけん">試験</fg>？</li>\
+                                <li>うん。おとといは<fg t="しけん">試験</fg>だった。</li>\
+                                <li>ううん。おとといは<fg t="しけん">試験</fg>じゃなかった。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="">Is test the day after yesterday?</fg></li>\
+                                <li><fg t="">Yep. test is the day after yesterday.</fg></li>\
+                                <li><fg t="">Nope,test is not the day after yesterday.</fg></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>Present い　type Adjective use 　\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li>この<fg t="みせ">店</fg><fg t="たか">高</fg>い？</li>\
+                                <li>うん。<fg t="たか">高</fg>い。</li>\
+                                <li>ううん。<fg t="たか">高</fg>くない。</li>\
+                            </ul>\
+                        </div\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="">Is this store expensive?</fg></li>\
+                                <li><fg t="">Yep, it is expensive.</fg></li>\
+                                <li><fg t="">Nope, it is not expensive.</fg></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>Past い　type adjective use　\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="きの">昨日</fg>の<fg t="か">買</fg>い<fg t="もの">物</fg>は<fg t="たか">高</fg>かった？</li>\
+                                <li>うん<fg t="きの">昨日</fg>の<fg t="か">買</fg>い<fg t="もの">物</fg>は<fg t="たか">高</fg>かった</li>\
+                                <li>ううん。<fg t="きの">昨日</fg>の<fg t="か">買</fg>い<fg t="もの">物</fg>は<fg t="たか">高</fg>くなかった。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li></li>\
+                                <li></li>\
+                                <li></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>\
+                </li>\
+                <li>present な　type adjective use\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="かのじょう">彼女</fg>はきれいた？</li>\
+                                <li>うん。<fg t="かのじょう">彼女</fg>はきれいだ。</li>\
+                                <li>ううん。<fg t="かのじょう">彼女</fg>はきれいじゃない。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li></li>\
+                                <li></li>\
+                                <li></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>　　\
+                </li>\
+                <li>Past な　type adjective use\
+                    <div>\
+                        <div class="clearB"></div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li><fg t="かのじょう">彼女</fg>はきれいだった？</li>\
+                                <li>うん。<fg t="かのじょう">彼女</fg>はきれいだった。</li>\
+                                <li>ううん。<fg t="かのじょう">彼女</fg>はきれいじゃなかった。</li>\
+                            </ul>\
+                        </div>\
+                        <div class="floatL">\
+                            <ul class="noBulletPt">\
+                                <li></li>\
+                                <li></li>\
+                                <li></li>\
+                            </ul>\
+                        </div>\
+                        <div class="clearB"></div>\
+                    </div>　\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">~んです。</h3>\
+            <blockquote>\
+                <emphB t="t">Regular Expression</emphB> + <emphR t="t">~んです</emphR>。<br>\
+                For Noun and な　type adjective,\
+                <emphB t="t">Regular Expression</emphB> + <emphR t="t">~なんです</emphR>。\
+            </blockquote>\
+            <ol>\
+                <caption>We use ~んです。 when...</caption>\
+                <li>we <emphR t="t">emphasize</emphR> <emphB t="">our own opinion</emphB>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>エウロパが<fg t="す">好</fg>き<emphR t="t">なんです</emphR>。\
+                            <div class="indented">\
+                                -> I like Europe!!!\
+                            </div>\
+                        </li>\
+                        <li><fg t="にほん">日本</fg>が<fg t="かんこく">韓国</fg>よりいい<fg t="くに">国</fg>になった<emphR t="t">んです</emphR>。\
+                            <div class="indented">\
+                                -> Japan has become better than Korea!!!\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>we <emphR t="t">emphasize</emphR> our <emphB t="">reason</emphB> for our action\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><fg t="あめ">雨</fg>がふって<fg t="おく">遅</fg>れった<emphR t="t">んです</emphR>。\
+                            <div class="indented">\
+                                -> I was late because it was raining.\
+                            </div>\
+                        </li>\
+                        <li><fg t="ちかてつ">地下鉄</fg>が<fg t="と">止</fg>めったから<fg t="こ">来</fg>なかった<emphR t="t">んです</emphR>。\
+                            <div class="indented">\
+                                -> I could not come because subway stopped.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>we want to <emphR t="t">get answer so bad</emphR> when <emphB t="">asking</emphB>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><fg t="かのじょう">彼女</fg>が<fg t="す">好</fg>き<emphR t="t">なんです</emphR>？\
+                            <div class="indented">\
+                                -> Do you like her?!\
+                            </div>\
+                        </li>\
+                        <li><fg t="にほんご">日本語</fg>が<fg t="はな">話</fg>した<emphR t="t">なんですね</emphR>？\
+                            <div class="indented">\
+                                -> Did you speak Japnese?!\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ol>\
+        </section>',
     chap26:
         ''
 };

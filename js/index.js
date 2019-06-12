@@ -34,6 +34,9 @@ const nav = {
     },
     chap26:()=>{
         $("#mainArticle").html(pages.chap26);
+    },
+    chap27:()=>{
+        $("#mainArticle").html(pages.chap27);
     }
 };
 
@@ -60,9 +63,13 @@ const vocabs = {
     },
     chap25:()=>{
         $("#mainArticle").html(vocab.chap25);
+        funcs.practiceSentence();
     },
     chap26:()=>{
         $("#mainArticle").html(vocab.chap26);
+    },
+    chap27:()=>{
+        $("#mainArticle").html(vocab.chap27);
     }
 }
 

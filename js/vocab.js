@@ -357,7 +357,63 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap25:
-        '',
+        '<h2 class="leftText">chapter25 vocab.</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><emphR t="red">もし</emphR>:<emphB t="blue">if(in all conjecture and hypothesis)</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">けど</emphR>:<emphB t="blue">~하지만</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">どう</emphR>:<emphB t="blue">how</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">なら</emphR>:<emphB t="blue">if(only in advise)</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">どうしたら</emphR>:<emphB t="blue">어떻게하면</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="もら">貰</fg>う</emphR>:<emphB t="blue">to receive</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="あつ">暑</fg>い</emphR>:<emphB t="blue">hot</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="かぜ">風邪</fg>をひく</emphR>:<emphB t="blue">to catch cold</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">シャワーを<fg t="あ">浴</fg>びる</emphR>:<emphB t="blue">to take a shower</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">ゆっくり<fg t="やす">休</fg>む</emphR>:<emphB t="blue">to take a good rest</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">ぐっすり<fg t="ね">寝</fg>る</emphR>:<emphB t="blue">to sleep well</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="けしょうひん">化粧品</fg></emphR>:<emphB t="blue">cosmetics</emphB>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><emphR t="red"><fg t="せかいりょこ">世界旅行</fg></emphR>:<emphB t="blue">world tour</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">あげる</emphR>:<emphB t="blue">to give</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">やせる</emphR>:<emphB t="blue">to slim down</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="ぜんぜん">全然</fg></emphR>:<emphB t="blue">not at all</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="むり">無理</fg>する</emphR>:<emphB t="blue">무리하다</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="つか">疲</fg>れる</emphR>:<emphB t="blue">tired</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="あき">秋</fg></emphR>:<emphB t="blue">fall</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="はる">春</fg></emphR>:<emphB t="blue">spring</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="ふゆ">冬</fg></emphR>:<emphB t="blue">winter</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="なつ">夏</fg></emphR>:<emphB t="blue">summer</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red">ホラー</emphR>:<emphB t="blue">horror</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="red"><fg t="けしょう">化粧</fg></emphR>:<emphB t="blue">make-up</emphB>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap26:
+        '',
+    chap27:
         ''
 }
