@@ -1634,7 +1634,140 @@ const pages = {
             </ol>\
         </section>',
     chap26:
-        '',
+        '<h2 class="leftText">chapter26.Listing reasons,facts and &ldquo;because&rdquo; expression, Although</h2>\
+        <section>\
+            <h3 class="centerText">Listing reasons and facts</h3>\
+            <blockquote>\
+                <emphB t="">Verb Regular Form</emphB> + <emphR t="">し</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li>past,present tense viable.</li>\
+                        <li>Listing <emphB t="">reasons and facts</emphB>\
+                            <emphR t="">as much as you want</emphR>.</li>\
+                        <li>can <emphB t="">be used with because expression</emphB>.</li>\
+                    </ul>\
+                </div>\
+                vs. <emphB t="">Verb た Form</emphB> + <emphR t="">たり</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li>Listing <emphB t="">at least two actions</emphB>.</li>\
+                        <li><emphR t="">regardless of time</emphR>.</li>\
+                    </ul>\
+                </div>\
+                vs. <emphB t="">Verb た Form</emphB> + <emphR t="">で</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li>Listing <emphB t="">at least two actions</emphB>.</li>\
+                        <li><emphR t="">ordered in time</emphR>.</li>\
+                    </ul>\
+                </div>\
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Example Sentences</h4>\
+                <li><fg t="きのう">昨日</fg>はバランスの<fg t="ちょうし">調子</fg>が\
+                    <fg t="わる">悪</fg>かった<emphR t="r">し</emphR><fg t="あたま">頭</fg>も<fg t="いた">痛</fg>かった。\
+                    <div class="indented">\
+                    My balance was not good and I had a headache yesterday.\
+                    </div>\
+                </li>\
+                <li><fg t="あした">明日</fg>はピアノのクラブの<fg t="かいぎ">会議</fg>\
+                    がある<emphR t="r">し</emphR>やれる<fg t="べんきょう">勉強</fg>もある<emphR t="r">から</emphR>\
+                    <fg t="あ">会</fg>うことが<fg t="でき">出来</fg>ません。\
+                    <div class="indented">\
+                        I cannot meet tomorrow becauseI have piano club meeting and some study to do.\
+                    </div>\
+                </li>\
+                <li><fg t="かのじょう">彼女</fg>は<fg t="えがお">笑顔</fg>も<fg t="いと">愛</fg>しい<emphR t="r">し</emphR>\
+                    <fg t="せいかく">性格</fg>もいいしですね。\
+                    <div class="indented">\
+                        She has lovely smile and good personality.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">because expression</h3>\
+            <blockquote>\
+                <emphB t="">Verb Regular Form</emphB> + <emphR t="">から</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li><emphR t="">past,present tense</emphR> viable.</li>\
+                        <li><emphR t="">becuase</emphR></li>\
+                        <li>It <emphB t="">can come at the end of sentence</emphB>.</li>\
+                        <li>Have to add だ at the end of\
+                            <emphB t="">Noun or な　type adjective(without だ)</emphB>\
+                        </li>\
+                    </ul>\
+                </div>\
+                <emphB t="">Verb Regular Form</emphB> + <emphR t="">ので</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li><emphR t="">past,present tense</emphR> viable.</li>\
+                        <li>more <emphR t="">polite expression</emphR> of because.</li>\
+                        <li>It <emphB t="">cannot come at the end of sentence</emphB>.</li>\
+                    </ul>\
+                </div>\
+                <emphB t="">Verb Regular Form</emphB> + <emphR t="">のに</emphR>\
+                <div class="indented">\
+                    <ul>\
+                        <li>past,present tense viable.</li>\
+                        <li>Although, though.</li>\
+                    </ul>\
+                </div>\
+                <ul>\
+                    <caption>Exception!</caption>\
+                    <li><emphB t="">Noun or な　type adjective(without だ)</emphB> + <emphR t="">なので/なのに</emphR></li>\
+                </ul>\
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Example Sentences</h4>\
+                <li><fg t="いま">今</fg><fg t="あめ">雨</fg>が\
+                    <fg t="ふ">降</fg>る<emphR t="">から</emphR>\
+                    <fg t="きょうお">今日</fg>の<fg t="かいぎ">会議</fg>はやめまよう。\
+                    <div class="indented">\
+                        Since it is raining now,let&rsquo;s cancel meeting.\
+                    </div>\
+                </li>\
+                <li><fg t="ゆうべ">昨夜</fg><fg t="そと">外</fg>でスカンク\
+                    を<fg t="み">見</fg>た<emphR t="">から</emphR>\
+                    <fg t="そと">外</fg>へ<fg t="で">出</fg>かけなかった。\
+                    <div class="indented">\
+                        Since I saw a skunk outside last night, I did not go out.\
+                    </div>\
+                </li>\
+                <li><fg t="きのう">昨日</fg>は<fg t="あたま">頭</fg>が\
+                    <fg t="いた">痛</fg>かっ<emphR t="">たので</emphR>\
+                    <fg t="じゅうぎょう">授業</fg>に<fg t="い">行</fg>かなかったんです。\
+                    <div class="indented">\
+                        I did not go to the class becuase I had a headache yesterday.\
+                    </div>\
+                </li>\
+                <li><fg t="やくそく">約束</fg><emphR t="">なので</emphR>\
+                    <fg t="い">行</fg>きます。\
+                    <div class="indented">\
+                        I wil go becuase it is a promise.\
+                    </div>\
+                </li>\
+                <li><fg t="やくそく">約束</fg><emphR t="">なのに</emphR>\
+                    <fg t="かれ">彼</fg>は<fg t="い">行</fg>かなかった。\
+                    <div class="indented">\
+                        Despite of appointment, he did not go.\
+                    </div>\
+                </li>\
+                <li><fg t="たいちょう">体調</fg>が<fg t="わる">悪</fg>い\
+                    <emphR t="">なのに</emphR><fg t="かのじょう">彼女</fg>は\
+                    <fg t="ともだち">友達</fg>のためにがんばる。\
+                    <div class="indented">\
+                        Even though her body condition is bad, she tries hard for her friend.\
+                    </div>\
+                </li>\
+                <li><fg t="かぜ">風邪</fg>だ<emphR t="">から</emphR>です。\
+                    <div class="indented">\
+                        because of cold.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap27:
         '',
     chap28:
