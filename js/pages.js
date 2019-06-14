@@ -1634,5 +1634,10 @@ const pages = {
             </ol>\
         </section>',
     chap26:
+        '',
+    chap27:
+        '',
+    chap28:
         ''
+
 };

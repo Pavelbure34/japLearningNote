@@ -413,7 +413,56 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap26:
-        '',
+        '<h2 class="leftText">chapter26 Vocab</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><span class="emphRed"><fg t="かおいろ">顔色</fg></span>:<span class="emphBlue">안색</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="かいぎ">会議</fg></span>:<span class="emphBlue">meeting(company)</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="よう">用</fg><fg t="じ">事</fg></span>:<span class="emphBlue">용무</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="いちにちじゅう">一日中</fg></span>:<span class="emphBlue">all day long</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="のど">喉</fg></span>:<span class="emphBlue">throat</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="くび">首</fg></span>:<span class="emphBlue">neck</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="こんばん">今晩</fg></span>:<span class="emphBlue">tonight</span>\
+                <div class="practiceSentence"></div></li>  \
+            <li><span class="emphRed"><fg t="にもつ">荷物</fg></span>:<span class="emphBlue">짐</span>\
+                <div class="practiceSentence"></div></li> \
+            <li><span class="emphRed"><fg t="や">焼く</fg></span>:<span class="emphBlue">bake(cookie or cake)</span>\
+                <div class="practiceSentence"></div></li> \
+            <li><span class="emphRed"><fg t="さいこう">最高</fg></span>:<span class="emphBlue">best</span>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><span class="emphRed"><fg t="からだ">体</fg>の<fg t="ちょうし">調子</fg>（<fg t="たいちょう">体調</fg>）</span>:\
+                <span class="emphBlue">body condition</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="なに">何も</fg></span>:<span class="emphBlue">아무것도</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="の">飲み</fg><fg t="かい">会</fg></span>:<span class="emphBlue">회식</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="わか">別れる</fg></span>:<span class="emphBlue">to break up</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="ね">寝</fg><fg t="ぼう">坊</fg>をする</span>:<span class="emphBlue">늦잠을 자다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">けんか</span>:<span class="emphBlue">fight, argument</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="さっき">先</fg></span>:<span class="emphBlue">아까</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="さき">先に</fg></span>:<span class="emphBlue">먼저</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="せいり">整理</fg></span>:<span class="emphBlue">정리</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="さいあく">最悪</fg></span>:<span class="emphBlue">worst</span>\
+                <div class="practiceSentence"></div></li>  \
+        </ul>\
+        <div class="clearB"></div>',
     chap27:
+        '',
+    chap28:
         ''
 }
