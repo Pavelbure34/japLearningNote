@@ -77,6 +77,7 @@ const vocabs = {
     },
     chap27:()=>{
         $("#mainArticle").html(vocab.chap27);
+        funcs.practiceSentence();
     },
     chap28:()=>{
         $("#mainArticle").html(vocab.chap28);

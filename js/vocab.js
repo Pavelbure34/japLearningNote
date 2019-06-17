@@ -462,7 +462,65 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap27:
-        '',
+        '<h2 class="leftText">chapter27 Vocab</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><span class="emphRed"><fg t="ほか">他の</fg></span>:<span class="emphBlue">adj. other</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">それに</span>:<span class="emphBlue">So</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="こ">込む</fg></span>:<span class="emphBlue">막히다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="お">落ちる</fg></span>:<span class="emphBlue">to fail(test),fall</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="なお">治る</fg></span>:<span class="emphBlue">to get better(From illness)</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">もちろん</span>:<span class="emphBlue">Of course</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="じ">時</fg><fg t="かん">間</fg>がかかる</span>:<span class="emphBlue">to takes time</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="みち">道が</fg><fg t="こ">込む</fg></span>:<span class="emphBlue">길이 막히다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">~に<fg t="に">似</fg>ている</span>:<span class="emphBlue">to look after ~</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="は">晴れる</fg></span>:<span class="emphBlue">(날씨가)맑다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="げつ">血</fg><fg t="えき">液</fg><fg t="がた">型</fg></span>:<span class="emphBlue">blood type</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="た">多</fg><fg t="ぶん">分</fg></span>:<span class="emphBlue">Maybe</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="こう">香</fg><fg t="すい">水</fg></span>:<span class="emphBlue">Perfume</span>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><span class="emphRed"><fg t="こん">今</fg><fg t="ど">度</fg></span>:<span class="emphBlue">this time</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">かっこいい</span>:<span class="emphBlue">terrific</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="だれ">誰でも</fg></span>:<span class="emphBlue">adverb. whoever</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="や">家</fg><fg t="ちん">賃</fg></span>:<span class="emphBlue">rent fee</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="ねむ">眠い</fg></span>:<span class="emphBlue">sleepy</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="しゅっせき">出席</fg></span>:<span class="emphBlue">attendance</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="き">気</fg>に<fg t="い">入</fg>る</span>:<span class="emphBlue">마음에 들다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed">に<fg t="に">似</fg><fg t="あ">合う</fg></span>:<span class="emphBlue">어울리다</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="ぶっか">物価</fg></span>:<span class="emphBlue">price(물가)</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="くも">曇る</fg></span>:<span class="emphBlue">cloudy</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="ひい">平</fg><fg t="じつ">日</fg></span>:<span class="emphBlue">weekdays</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="お">空く</fg></span>:<span class="emphBlue">to get empty(seat)</span>\
+                <div class="practiceSentence"></div></li>\
+            <li><span class="emphRed"><fg t="あたた">暖かい</fg></span>:<span class="emphBlue">warm</span>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap28:
         '',
     chap29:
