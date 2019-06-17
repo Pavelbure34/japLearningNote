@@ -1769,7 +1769,232 @@ const pages = {
             </ul>\
         </section>',
     chap27:
-        '',
+        '<h2 class="leftText">chapter27.another supposing expression</h2>\
+        <section>\
+            <h3 class="centerText">Verb Reg Form+と<fg t="おも">思</fg>う</h3>\
+            It is used when\
+            <ol>\
+                <li>you suppose solely based on your opinion</li>\
+                <li>you express your thought</li>\
+            </ol>\
+            <blockquote>\
+                <ul class="noBulletPt">\
+                    <li>Regular form\
+                        <ul>\
+                            <li>Noun\
+                                <ul>\
+                                    <li>Present:Noun + <emphB t="t">だ</emphB><emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Present Negate:Noun + <emphB t="t">じゃない</emphB><emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past:Noun + <emphB t="t">だった</emphB><emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past Negate:Noun + <emphB t="t">じゃなかった</emphB><emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>Verb\
+                                <ul>\
+                                    <li>Present:<emphB t="t">Verb Reg Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">Verb ない Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past:<emphB t="t">Verb た form</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">Verb た form + なかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>い　type adjective\
+                                <ul>\
+                                    <li>Present:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">adj ない Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past:<emphB t="t">adj た form + かった</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">adj ない form + なかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>な　type adjective\
+                                <ul>\
+                                    <li>Present:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">だと<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">じゃないと<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past:<emphB t="t">adj た form</emphB>+<emphR t="t">だったと<fg t="おも">思</fg>う</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">adj ない form + じゃなかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>う</emphR></li>\
+                                </ul>\
+                            </li>\
+                        </ul>\
+                    </li>\
+                    <li>Polite form\
+                        <ul>\
+                            <li>Noun\
+                                <ul>\
+                                    <li>Present:Noun + <emphB t="t">だ</emphB><emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Present Negate:Noun + <emphB t="t">じゃない</emphB><emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Past:Noun + <emphB t="t">だった</emphB><emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                    <li>Past Negate:Noun + <emphB t="t">じゃなかった</emphB><emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>Verb\
+                                <ul>\
+                                    <li>Present:<emphB t="t">Verb Reg Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">Verb ない Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Past:<emphB t="t">Verb た form</emphB>+<emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">Verb た form + なかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>い　type adjective\
+                                <ul>\
+                                    <li>Present:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">adj ない Form</emphB>+<emphR t="t">と<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Past:<emphB t="t">adj た form + かった</emphB>+<emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">adj ない form + なかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                </ul>\
+                            </li>\
+                            <li>な　type adjective\
+                                <ul>\
+                                    <li>Present:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">だと<fg t="おも">思</fg>います</emphR></li>\
+                                    <li>Present Negate:<emphB t="t">adj Reg Form</emphB>+<emphR t="t">じゃないと<fg t="おも">思</fg>いました</emphR></li>\
+                                    <li>Past:<emphB t="t">adj た form</emphB>+<emphR t="t">だったと<fg t="おも">思</fg>ます</emphR></li>\
+                                    <li>Past Negate:<emphB t="t">adj ない form + じゃなかった</emphB>+<emphR t="t">と<fg t="おも">思</fg>いました</emphR></li>\
+                                </ul>\
+                            </li>\
+                        </ul>\
+                    </li>\
+                </ul>\
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Examples.</h4>\
+                <li><fg t="いま">今</fg><fg t="つ">付</fg>き<fg t="あ">合</fg>うのはよくないと\
+                    <emphR t="t"><fg t="おも">思</fg>います</emphR>/<emphR t="t"><fg t="おも">思</fg>う</emphR>\
+                    <div class="indented">\
+                        I think it is not good to date now.\
+                    </div>\
+                </li>\
+                <li><fg t="らい">来</fg><fg t="しゅう">週</fg><fg t="あ">会</fg>うのはいいと\
+                    <emphR t="t"><fg t="おも">思</fg>います</emphR>/<emphR t="t"><fg t="おも">思</fg>う</emphR>\
+                    <div class="indented">\
+                        I think it is good meeting next week.\
+                    </div>\
+                </li>\
+                <li><fg t="かれ">彼</fg>はもう<fg t="ゆうめい">有名</fg>だった\
+                    <emphR t="t"><fg t="おも">思</fg>います</emphR>/<emphR t="t"><fg t="おも">思</fg>う</emphR>\
+                    <div class="indented">\
+                        I think he was no longer famous.\
+                    </div>\
+                </li>\
+                <li>あの<fg t="かしゅう">歌手</fg>は<fg t="ゆうめい">有名</fg>じゃなかったと\
+                    <emphR t="t"><fg t="おも">思</fg>います</emphR>/<emphR t="t"><fg t="おも">思</fg>う</emphR>\
+                    <div class="indented">\
+                        I think that singer was not famous.\
+                    </div>\
+                </li>\
+                <li><fg t="い">行</fg>かないと\
+                    <emphR t="t"><fg t="おも">思</fg>います</emphR>/<emphR t="t"><fg t="おも">思</fg>う</emphR>\
+                    <div class="indented">\
+                        I think I will not go.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Verb Reg Form+でしょう。/でしょうか。</h3>\
+            It is used when you suppose based on your opinion and some facts<br>\
+            and both of you and the other do&rsquo;t know.\
+            <blockquote>\
+                <ul class="noBulletPt">\
+                    <li>Same variation as above but...</li>\
+                </ul>\
+                <ul>\
+                    <caption>Exception</caption>\
+                    <li><emphB t="t">Noun or な type Adjective</emphB><emphR t="t">(without だ)</emphR>+\
+                        <emphR t="t">でしょう。</emphR>/<emphR t="t">でしょうか。</emphR></li>\
+                </ul>\
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Examples.</h4>\
+                <li><fg t="あした">明日</fg>の<fg t="てん">天</fg><fg t="き">気</fg>は<fg t="あめ">雨</fg>\
+                    <emphR t="t">でしょうか。</emphR><br>\
+                    <fg t="あした">明日</fg>の<fg t="てん">天</fg><fg t="き">気</fg>は<fg t="あめ">雨</fg>\
+                    <emphR t="t">でしょう。</emphR>\
+                    <div class="indented">\
+                        Will Tomorrow&rsquo;s weather be rain?<br>\
+                        Well it will be rain right?\
+                    </div>\
+                </li>\
+                <li><fg t="きょう">巨</fg><fg t="じん">人</fg><fg t="くん">軍</fg>が<fg t="ま">負</fg>ける\
+                    <emphR t="t">でしょうか。</emphR><br>\
+                    いいえ。<fg t="きょう">巨</fg><fg t="じん">人</fg><fg t="くん">軍</fg>が<fg t="ま">負</fg>ける\
+                    <emphR t="t">でしょう。</emphR>\
+                    <div class="indented">\
+                        Will The Giants win?<br>\
+                        Well, They will not win right?\
+                    </div>\
+                </li>\
+                <li><fg t="こん">今</fg><fg t="ど">度</fg>の<fg t="たから">宝</fg>くじを<fg t="あ">当</fg>たる\
+                    <emphR t="t">でしょうか。</emphR><br>\
+                    <fg t="こん">今</fg><fg t="ど">度</fg>の<fg t="たから">宝</fg>くじを<fg t="あ">当</fg>たる\
+                    <emphR t="t">でしょう。</emphR>\
+                    <div class="indented">\
+                        Will I win the lottery this time?<br>\
+                        You will win this time right?\
+                    </div>\
+                </li>\
+                <li><fg t="むし">虫</fg><emphR t="t">でしょうか。</emphR><br>\
+                    いいえ。<fg t=""></fg><fg t="むし">虫</fg>じゃない<emphR t="t">でしょう。</emphR></emphR>\
+                    <div class="indented">\
+                        Will it be bug?<br>\
+                        No, it is not bug right?\
+                    </div>\
+                </li>\
+                <li>この<fg t="えい">映</fg><fg t="が">画</fg><fg t="ゆう">有</fg><fg t="めい">名</fg>\
+                    <emphR t="t">でしょうか。</emphR><br>\
+                    はい。この<fg t="えい">映</fg><fg t="が">画</fg><fg t="ゆう">有</fg><fg t="めい">名</fg>\
+                    <emphR t="t">でしょう。</emphR>\
+                    <div class="indented">\
+                        Is this movie famous?<br>\
+                        Yes, this movie is famous, right?\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Verb Reg Form+かも<fg t="">知</fg>れません。/かも<fg t="">知</fg>らない。</h3>\
+                It is used when it is not certain yet still possible.\
+            <blockquote>\
+                <ul class="noBulletPt">\
+                    <li>Same variation as above but...</li>\
+                </ul>\
+                <ul>\
+                    <caption>Exception</caption>\
+                    <li><emphB t="t">Noun or な type Adjective</emphB><emphR t="t">(without だ)</emphR>+\
+                        <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR></li>\
+                </ul>\
+            </blockquote>\
+        </section>\
+        <ul>\
+            <h4 class="leftText">Examples.</h4>\
+            <li><fg t="らいしゅう">来週</fg>は<fg t="あめ">雨</fg>\
+                <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR>\
+                <div class="indented">\
+                    For next week, it might be rain.\
+                </div>\
+            </li>\
+            <li>あの<fg t="ひと">人</fg>は<fg t="ゆうめい">有名</fg>な<fg t="せんしゅう">選手</fg>\
+                <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR>\
+                <div class="indented">\
+                    That Person might be a famous player.\
+                </div>\
+            </li>\
+            <li>もうゲームは<fg t="お">終</fg>わる\
+                <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR>\
+                <div class="indented">\
+                    This game might be already over.\
+                </div>\
+            </li>\
+            <li><fg t="さいきん">最近</fg><fg t="けいき">景気</fg>が<fg t="わる">悪</fg>い\
+                <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR>\
+                <div class="indented">\
+                    Lately, the overall economy mught be bad.\
+                </div>\
+            </li>\
+            <li>まっすぐ<fg t="せ">世</fg><fg t="かい">界</fg><fg t="たい">大</fg><fg t="せん">戦</fg>がある\
+                <emphR t="t">かも<fg t="">知</fg>れません。</emphR>/<emphR t="t">かも<fg t="">知</fg>らない。</emphR>\
+                <div class="indented">\
+                    Soon there might be the World War.\
+                </div>\
+            </li>\
+        </ul>',
     chap28:
         '',
     chap29:
