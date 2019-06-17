@@ -464,5 +464,7 @@ const vocab = {
     chap27:
         '',
     chap28:
+        '',
+    chap29:
         ''
 }

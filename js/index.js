@@ -40,6 +40,9 @@ const nav = {
     },
     chap28:()=>{
         $("#mainArticle").html(pages.chap28);
+    },
+    chap29:()=>{
+        $("#mainArticle").html(pages.chap29);
     }
 };
 
@@ -77,7 +80,10 @@ const vocabs = {
     },
     chap28:()=>{
         $("#mainArticle").html(vocab.chap28);
-    }
+    },
+    chap29:()=>{
+        $("#mainArticle").html(vocab.chap29);
+    },
 }
 
 const funcs = {
