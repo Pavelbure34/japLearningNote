@@ -87,6 +87,18 @@ const vocabs = {
     },
 }
 
+const diary ={
+    _0616:()=>{
+        $("#mainArticle").html(diaries._0616);
+    },
+    _0617:()=>{
+        $("#mainArticle").html(diaries._0617);
+    },
+    _0618:()=>{
+        $("#mainArticle").html(diaries._0618);
+    }
+}
+
 const funcs = {
     imageWithSub:(id,position,src,width,height,text)=>{
         if (position === "center"){
