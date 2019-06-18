@@ -43,6 +43,9 @@ const nav = {
     },
     chap29:()=>{
         $("#mainArticle").html(pages.chap29);
+    },
+    chap30:()=>{
+        $("#mainArticle").html(pages.chap30);
     }
 };
 
@@ -81,10 +84,14 @@ const vocabs = {
     },
     chap28:()=>{
         $("#mainArticle").html(vocab.chap28);
+        funcs.practiceSentence();
     },
     chap29:()=>{
         $("#mainArticle").html(vocab.chap29);
     },
+    chap30:()=>{
+        $("#mainArticle").html(vocab.chap30);
+    }
 }
 
 const diary ={

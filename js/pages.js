@@ -1998,5 +1998,7 @@ const pages = {
     chap28:
         '',
     chap29:
+        '',
+    chap30:
         ''
 };

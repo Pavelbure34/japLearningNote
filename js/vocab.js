@@ -522,7 +522,52 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap28:
-        '',
+        '<h2 class="leftText">chapter28 Vocab</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><emphR t="t"><fg t="かん">漢</fg><fg t="じ">字</fg></emphR>:<emphB t="t">Chinese letter</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="しょう">将</fg><fg t="らい">来</fg></emphR>:<emphB t="t">장래</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="すず">涼しい</fg></emphR>:<emphB t="t">chill,cool</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="うご">動く</fg></emphR>:<emphB t="t">to move</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="ま">曲がる</fg></emphR>:<emphB t="t">to turn(navigation)</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="で">出</fg><fg t="ぐち">口</fg></emphR>:<emphB t="t">exit</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="みぎ">右</fg></emphR>:<emphB t="t">right</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="こう">交</fg><fg t="さ">差</fg><fg t="てん">点</fg></emphR>:\
+                <emphB t="t">intersection(Road)</emphB>\
+                <div class="practiceSentence"></div></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><emphR t="t"><fg t="じつ">実</fg></emphR>:<emphB t="t">the fact</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="わら">笑う</fg></emphR>:<emphB t="t">to smile</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="な">泣く</fg></emphR>:<emphB t="t">to cry</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="さ">咲く</fg></emphR>:<emphB t="t">to bloom(flower)</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="お">押す</fg></emphR>:<emphB t="t">to press(button)</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="いり">入</fg><fg t="ぐち">口</fg></emphR>:\
+                <emphB t="t">입구</emphB>\
+                <div class="practiceSentence"></div></li>\
+            <li><emphR t="t"><fg t="ひだり">左</fg></emphR>:<emphB t="t">left</emphB>\
+                <div class="practiceSentence"></div></li>\
+                <li><emphR t="t"><fg t="おう">横</fg><fg t="だん">断</fg>\
+                    <fg t="ほ">歩</fg><fg t="どう">道</fg>\
+                    を<fg t="わた">渡る</fg></emphR>:\
+                    <emphB t="t">횡단보도를 건너다</emphB>\
+                    <div class="practiceSentence"></div></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap29:
+        '',
+    chap30:
         ''
 }
