@@ -1996,7 +1996,200 @@ const pages = {
             </li>\
         </ul>',
     chap28:
-        '',
+        '<h2 class="leftText">chapter28.なる　and  と</h2>\
+        <section>\
+            <h3 class="centerText">なる</h3>\
+            Its direct translation is &ldquo;to become, 되다&rdquo;.<br>\
+            It is only used when there is change in current status.\
+            <ul class="noBulletPt">\
+                <li>With Noun.\
+                    <blockquote>\
+                        <emphB>Noun</emphB> + <emphR>になる</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>リーダー\
+                            <emphR>になる。/ならない。</emphR>\
+                            <div class="indented">\
+                                I become the leader/don&rsquo;t become the leader.'+ 
+                            '</div>\
+                        </li>\
+                        <li><fg t="はる">春</fg>\
+                            <emphR>になりました。/なりませんでした。</emphR>\
+                            <div class="indented">\
+                                It became the spring/didn&rsquo;t become the spring.\
+                            </div>\
+                        </li>\
+                        <li><fg t="ひとり">一人</fg>\
+                            <emphR>になります。/なりません。</emphR>\
+                            <div class="indented">\
+                                I become alone/don&rsquo;t become alone.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>With な Type Adjective\
+                    <blockquote>\
+                        <emphB>な Type Adjective</emphB>(<emphR>without だ</emphR>) + <emphR>になる</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>きらいに\
+                            <emphR>なる/ならない</emphR>\
+                            <div class="indented">\
+                                I become pretty/don&rsquo;t become pretty.\
+                            </div>\
+                        </li>\
+                        <li><fg t="ゆうめい">有名</fg>に\
+                            <emphR>なりました/なりませんでした</emphR>\
+                            <div class="indented">\
+                                I became famous/didn&rsquo;t become famous.\
+                            </div>\
+                        </li>\
+                        <li><fg t="から">嫌</fg>い\
+                            <emphR>になります。/なりません。</emphR>\
+                            <div class="indented">\
+                                I become hating/don&rsquo;t become hating.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>With い Type Adjective\
+                    <blockquote>\
+                        <emphB>い Type Adjective</emphB>(<emphR>without い</emphR>) + <emphR>くなる</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><fg t="てんき">天気</fg>が\
+                            <emphB><fg t="さむ">寒</fg>く</emphB>\
+                            <emphR>なりました。/なるませんでした。</emphR>\
+                            <div class="indented">\
+                                The weather became cold/didn&rsquo;t become cold.\
+                            </div>\
+                        </li>\
+                        <li><fg t="てんき">天気</fg>が\
+                            <emphB><fg t="すず">涼</fg>しく</emphB>\
+                            <emphR>なる。/ならない</emphR>\
+                            <div class="indented">\
+                                The weather becomes cool/doesn&rsquo;t become cool.\
+                            </div>\
+                        </li>\
+                        <li><fg t="にほんご">日本語</fg>が\
+                            <emphB>よく</emphB>\
+                            <emphR>なります。/なりません。</emphR>\
+                            <div class="indented">\
+                                My japanese becomes better/doesn&rsquo;t become better.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>With Verb\
+                    <blockquote>\
+                        <emphB>Verb Reg Form</emphB> + <emphR>ようになる</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><fg t="じょうず">上手</fg>に<fg t="うた">歌</fg>う\
+                            <emphR>ようになりました。/なるませんでした。</emphR>\
+                            <div class="indented">\
+                                I got to sing well/didn&rsquo;t get to sing well.\
+                            </div>\
+                        </li>\
+                        <li><fg t="はや">速</fg>くはりる\
+                            <emphR>ようになる。/ならない。</emphR>\
+                            <div class="indented">\
+                                I get to run fast/don&rsquo;t get to run fast.\
+                            </div>\
+                        </li>\
+                        <li><fg t="まいあさ">毎朝</fg><fg t="はや">早</fg>く<fg t="お">起</fg>きる\
+                            <emphR>ようになります。/なりませえん。</emphR>\
+                            <div class="indented">\
+                                I get to wake up early in the morning/don&rsquo;t\
+                                get to wake up early in the morning\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+            <ul>\
+                <h3>Its Variation</h3>\
+                <li>Present Tense\
+                    <ul>\
+                        <li>Polite Expression\
+                            <div class="indented">\
+                                なります。/なりません。\
+                            </div>\
+                        </li>\
+                        <li>Regular Expression\
+                            <div class="indented">\
+                                なる。/ならない。\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>Past Tense\
+                    <ul>\
+                        <li>Polite Expression\
+                            <div class="indented">\
+                                なりました。/なりませんでした。\
+                            </div>\
+                        </li>\
+                        <li>Regular Expression\
+                            <div class="indented">\
+                                なった。/ならなかった。\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Verb Reg Form + と</h3>\
+            <blockquote>\
+                It is used when\
+                <ol>\
+                    <li>to mention Natural phenomenon</li>\
+                    <li>to mention habits</li>\
+                    <li>to mention the fact</li>\
+                    <li>to mention prerequisite condition</li>\
+                    <li>to instruct how to use machine</li>\
+                </ol>\
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Example</h4>\
+                <li><fg t="あめ">雨</fg>が<emphB><fg t="ふ">降</fg>る</emphB><emphR>と</emphR>\
+                    <fg t="にじ">虹</fg>が<fg t="で">出</fg>ます。\
+                    <div class="indented">\
+                        If raining,there is rainbow.(natural phenomenon)\
+                    </div>\
+                </li>\
+                <li><fg t="にほんご">日本語</fg>を<emphB><fg t="べんきょう">勉強</fg>する</emphB><emphR>と</emphR>\
+                    <fg t="しょくじ">食事</fg>をします。\
+                    <div class="indented">\
+                        If studying Japanes,I go eat(habit)\
+                    </div>\
+                </li>\
+                <li>このボタンを<emphB><fg t="お">押</fg>す</emphB><emphR>と</emphR>\
+                    お<fg t="ちゃ">茶</fg>が<fg t="で">出</fg>ます。\
+                    <div class="indented">\
+                        If you push this button,the tea comes out(machine instruction)\
+                    </div>\
+                </li>\
+                <li>まっすぐ<fg t="い">行</fg>って<fg t="みぎ">右</fg>に<emphB><fg t="ま">曲</fg>がる</emphB>\
+                    <emphR>と</emphR>コンビニがあります。\
+                    <div class="indented">\
+                        If going straight and turning right,there is a convenience store.\
+                    </div>\
+                </li>\
+                <li><fg t="さむ">寒</fg>い<fg t="てんき">天気</fg>で\
+                    <fg t="なが">長</fg>い<fg t="じかん">時間</fg><fg t="そと">外</fg>へ<emphB>いる</emphB>\
+                    <emphR>と</emphR><fg t="かぜ">風邪</fg>をひくようになります。\
+                    <div class="indented">\
+                        If being outside for a long time in the cold weather, you catch cold.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap29:
         '',
     chap30:
