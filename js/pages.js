@@ -2191,7 +2191,262 @@ const pages = {
             </ul>\
         </section>',
     chap29:
-        '',
+        '<h2 class="leftText">chapter29.Verb Able form, adverb form</h2>\
+        <section>\
+            <h3 class="centerText">Verb Able form</h3>\
+            The complete Able form is type 2 verb.\
+            <ul class="noBulletPt">\
+                <li>Type 1 Verbs\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>Change</emphB>\
+                                <emphR>う　type ending</emphR> to\
+                                <emphR>え type one</emphR>.</li>\
+                            <li><emphB>add</emphB>\
+                                <emphR>る</emphR>\
+                                　to the end.</li>\
+                        </ol>\
+                    </blockquote>\
+                    <h4 class="leftText">Examples</h4>\
+                    <div class="clearB"></div>\
+                    <ul class="floatL">\
+                        <li><emphB><fg t="あ">会う</fg></emphB>->\
+                            <emphB><fg t="あ">会</fg></emphB><emphR>える</emphR>\
+                            <div class="indented">\
+                                to meet\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="はな">話す</fg></emphB>->\
+                            <emphB><fg t="はな">話</fg></emphB><emphR>せる</emphR>\
+                            <div class="indented">\
+                                to have a conversation\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="い">言う</fg></emphB>->\
+                            <emphB><fg t="い">言</fg></emphB><emphR>える</emphR>\
+                            <div class="indented">\
+                                to talk(even to oneself)\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ま">待つ</fg></emphB>->\
+                            <emphB><fg t="ま">待</fg></emphB><emphR>てる</emphR>\
+                            <div class="indented">\
+                                to wait\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="の">乗る</fg></emphB>->\
+                            <emphB><fg t="の">乗</fg></emphB><emphR>れる</emphR>\
+                            <div class="indented">\
+                                to ride\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="はし">走る</fg></emphB>->\
+                            <emphB><fg t="はし">走</fg></emphB><emphR>れる</emphR>\
+                            <div class="indented">\
+                                to run\
+                            </div></li>\
+                        <li><emphB><fg t="もど">戻る</fg></emphB>->\
+                            <emphB><fg t="もど">戻</fg></emphB><emphR>れる</emphR>\
+                            <div class="indented">\
+                                to return to\
+                            </div>\
+                        </li>\
+                    </ul>'+
+                    '<ul class="floatL">\
+                            <li><emphB><fg t="し">死ぬ</fg></emphB>->\
+                                <emphB><fg t="し">死</fg></emphB><emphR>ねる</emphR>\
+                                <div class="indented">\
+                                    to die\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="の">飲む</fg></emphB>->\
+                                <emphB><fg t="の">飲</fg></emphB><emphR>める</emphR>\
+                                <div class="indented">\
+                                    to drink\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="あそ">遊ぶ</fg></emphB>->\
+                                <emphB><fg t="あそ">遊</fg></emphB><emphR>べる</emphR>\
+                                <div class="indented">\
+                                    to hang out,play\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="い">行く</fg></emphB>->\
+                                <emphB><fg t="い">行</fg></emphB><emphR>ける</emphR>\
+                                <div class="indented">\
+                                    to go\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="およ">泳ぐ</fg></emphB>->\
+                                <emphB><fg t="およ">泳</fg></emphB><emphR>げる</emphR>\
+                                <div class="indented">\
+                                    to swim\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="はい">入る</fg></emphB>->\
+                                <emphB><fg t="はい">入</fg></emphB><emphR>れる</emphR>\
+                                <div class="indented">\
+                                    to enter\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="かえ">帰る</fg></emphB>->\
+                                <emphB><fg t="かえ">帰</fg></emphB><emphR>れる</emphR>\
+                                <div class="indented">\
+                                    to go back\
+                                </div>\
+                            </li>\
+                        </ul>\
+                    </ul>\
+                    <div class="clearB"></div>\
+                </li>\
+                <li>Type 2 Verbs\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>get rid of </emphB>\
+                                <emphR>る ending</emphR>.\
+                            </li>\
+                            <li><emphB>add</emphB>\
+                                <emphR>られる</emphR>\
+                                　to the end.</li>\
+                        </ol>\
+                    </blockquote>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><emphB><fg t="み">見る</fg></emphB>->\
+                            <emphB><fg t="み">見</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to see\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="おぼ">覚える</fg></emphB>->\
+                            <emphB><fg t="おぼ">覚え</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to memorize\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="た">食べる</fg></emphB>->\
+                            <emphB><fg t="た">食べ</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to eat\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>Type 3 Verbs\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><emphB><fg t="">する</fg></emphB>->\
+                            <emphR><fg t="で">出</fg><fg t="き">来</fg>る</emphR>\
+                            <div class="indented">\
+                                생기다,완성하다,가능하다\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="く">来る</fg></emphB>->\
+                            <emphB><fg t="こ">来</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to come\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>'+
+        '</section>\
+        <section>\
+            <h3 class="centerText">Adverb form</h3>\
+            <ul class="noBulletPt">\
+                    <li>な Type Adjective\
+                        <blockquote>\
+                            <ol>\
+                                <li><emphB>get rid of </emphB>\
+                                    <emphR>だ ending</emphR>.\
+                                </li>\
+                                <li><emphB>add</emphB>\
+                                    <emphR>に</emphR>\
+                                    　to the end.</li>\
+                            </ol>\
+                        </blockquote>\
+                        <ul>\
+                            <h4 class="leftText">Examples</h4>\
+                            <li><emphB><fg t="ゆう">有</fg><fg t="めい">名だ</fg></emphB>->\
+                                <emphB><fg t="ゆう">有</fg><fg t="めい">名</fg></emphB><emphR>に</emphR>\
+                                <div class="indented">\
+                                    Famous -> famously\
+                                </div>\
+                            </li>\
+                            <li><emphB>いぎやかだ</fg></emphB>->\
+                                <emphB>いぎやか</emphB><emphR>に</emphR>\
+                                <div class="indented">\
+                                    prospering -> prosperingly\
+                                </div>\
+                            </li>\
+                        </ul>\
+                    </li>\
+                    <li>い Type Adjective\
+                        <blockquote>\
+                            <ol>\
+                                <li><emphB>get rid of </emphB>\
+                                    <emphR>い ending</emphR>.\
+                                </li>\
+                                <li><emphB>add</emphB>\
+                                    <emphR>く</emphR>\
+                                    　to the end.</li>\
+                            </ol>\
+                        </blockquote>\
+                        <ul>\
+                            <h4 class="leftText">Examples</h4>\
+                            <li><emphB><fg t="はや">早い</fg></emphB>->\
+                                <emphB><fg t="はや">早</fg></emphB><emphR>く</emphR>\
+                                <div class="indented">\
+                                    early -> fast\
+                                </div>\
+                            </li>\
+                            <li><emphB><fg t="から">辛い</fg></emphB>->\
+                                <emphB><fg t="から">辛</fg></emphB><emphR>く</emphR>\
+                                <div class="indented">\
+                                    Spicy -> Spicily\
+                                </div>\
+                            </li>\
+                        </ul>\
+                    </li>\
+                </ul>'+
+        '</section>\
+        <section>\
+            <h3 class="centerText">Verb Able form+ようになる</h3>\
+            <blockquote>\
+                It is used when you mention things you could not do before but can do now. \
+            </blockquote>\
+            <ul>\
+                <h4 class="leftText">Examples</h4>\
+                <li><fg t="に">日</fg><fg t="ほん">本</fg><fg t="ご">語</fg>\
+                    を<fg t="べんきょう">勉強</fg>してからラヂオが<fg t="よ">良</fg>く\
+                    <emphB><fg t="か">聞</fg>き<fg t="と">取</fg>れる</emphB>\
+                    <emphR>ようになりました。</emphR>\
+                    <div class="indented">\
+                        Ever since I study Japanese,I get to listen and understand radio show.\
+                    </div>\
+                </li>\
+                <li><fg t="まえ">前</fg>は\
+                    <fg t="き">基</fg><fg t="ほん">本</fg><fg t="でき">的</fg>な\
+                    <fg t="ぶん">文</fg><fg t="ぽ">法</fg>を<fg t="し">知</fg>らないですが\
+                    <fg t="いま">今</fg>は\
+                    <fg t="き">基</fg><fg t="ほん">本</fg><fg t="でき">的</fg>な\
+                    <fg t="ぶん">文</fg><fg t="ぽ">法</fg>が<fg t="じょうず">上手</fg>に\
+                    <emphB><fg t="か">書</fg>ける</emphB>\
+                    <emphR>ようになりました。</emphR>\
+                    <div class="indented">\
+                        I did not know the basic grammar before but I get to write basic grammar.\
+                    </div>\
+                </li>\
+                <li><fg t="むかし">昔</fg>グラウンドボールを<fg t="う">受</fg>けるのが\
+                    <fg t="で">出</fg><fg t="き">来</fg>なかっですが\
+                    グラウンドボールが<emphB><fg t="う">受</fg>けられる</emphB>\
+                    <emphR>ようになりました。</emphR>\
+                    <div class="indented">\
+                        I could not handle ground balls but I get to handle ground balls.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap30:
         '',
     chap31:
