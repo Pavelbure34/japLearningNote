@@ -46,6 +46,9 @@ const nav = {
     },
     chap30:()=>{
         $("#mainArticle").html(pages.chap30);
+    },
+    chap31:()=>{
+        $("#mainArticle").html(pages.chap31);
     }
 };
 
@@ -91,6 +94,9 @@ const vocabs = {
     },
     chap30:()=>{
         $("#mainArticle").html(vocab.chap30);
+    },
+    chap31:()=>{
+        $("#mainArticle").html(vocab.chap31);
     }
 }
 
@@ -103,6 +109,9 @@ const diary ={
     },
     _0618:()=>{
         $("#mainArticle").html(diaries._0618);
+    },
+    _0619:()=>{
+        $("#mainArticle").html(diaries._0619);
     }
 }
 

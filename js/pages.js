@@ -2193,5 +2193,7 @@ const pages = {
     chap29:
         '',
     chap30:
+        '',
+    chap31:
         ''
 };

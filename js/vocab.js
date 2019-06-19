@@ -569,5 +569,7 @@ const vocab = {
     chap29:
         '',
     chap30:
+        '',
+    chap31:
         ''
 }
