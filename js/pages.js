@@ -2448,7 +2448,354 @@ const pages = {
             </ul>\
         </section>',
     chap30:
-        '',
+        '<h2 class="leftText">chapter30.~ば</h2>\
+        <section>\
+            <blockquote>\
+                A~ば B.It is used when\
+                <ul>\
+                    <li>Only the condition A is met so that</li>\
+                    <li>Condition B can be fulfilled.</li>\
+                </ul> \
+            </blockquote>\
+            <ul class="noBulletPt">\
+                <li>For Noun\
+                    <blockquote>\
+                        <emphB>Noun</emphB>+\
+                        <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><emphB><fg t="せん">先</fg><fg t="せい">生</fg></emphB>->\
+                            <emphB><fg t="せん">先</fg><fg t="せい">生</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Noun.Teacher\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="がく">学</fg><fg t="せい">生</fg></emphB>->\
+                            <emphB><fg t="がく">学</fg><fg t="せい">生</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Noun.Student\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="せん">選</fg><fg t="しゅう">手</fg></emphB>->\
+                            <emphB><fg t="せん">選</fg><fg t="しゅう">手</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Noun.Player\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For な Type Adjective\
+                    <blockquote>\
+                        <emphB>な Type Adjective(without だ)</emphB>+\
+                        <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><emphB><fg t="ゆう">有</fg><fg t="めい">名</fg>だ</emphB>->\
+                            <emphB><fg t="ゆう">有</fg><fg t="めい">名</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Adj.Famous\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ひま">暇だ</fg></emphB>->\
+                            <emphB><fg t="ひま">暇</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Adj.idle\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="じょう">上</fg><fg t="ず">手だ</fg></emphB>->\
+                            <emphB><fg t="じょう">上</fg><fg t="ず">手</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Adj.well\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="へ">下</fg><fg t="た">手だ</fg></emphB>->\
+                            <emphB><fg t="へ">下</fg><fg t="た">手</fg></emphB>\
+                            <emphR>ならば</emphR> / <emphR>じゃなければ</emphR>\
+                            <div class="indented">\
+                                Adj.Clumsy\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For い Type Adjective\
+                    <blockquote>\
+                        <emphB>い Type Adjective(without い)</emphB>+\
+                        <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><emphB><fg t="あつ">暑い</fg></emphB>->\
+                            <emphB><fg t="あつ">暑</fg></emphB>\
+                            <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                            <div class="indented">\
+                                Adj.warm\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="さむ">寒い</fg></emphB>->\
+                            <emphB><fg t="さむ">寒</fg></emphB>\
+                            <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                            <div class="indented">\
+                                Adj.cold\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="いた">痛い</fg></emphB>->\
+                            <emphB><fg t="いた">痛</fg></emphB>\
+                            <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                            <div class="indented">\
+                                Adj.sick\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="おそ">遅い</fg></emphB>->\
+                            <emphB><fg t="おそ">遅</fg></emphB>\
+                            <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                            <div class="indented">\
+                                Adj.late\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ねむ">眠い</fg></emphB>->\
+                            <emphB><fg t="ねむ">眠</fg></emphB>\
+                            <emphR>ければ</emphR> / <emphR>くなければ</emphR>\
+                            <div class="indented">\
+                                Adj.sleepy\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For Verb\
+                    <ul class="noBulletPt">\
+                        <li>For type 1 Verb\
+                            <blockquote>\
+                                <emphB>u type ending to e type ending</emphB>+\
+                                <emphR>ば</emphR> /\
+                                <emphB>Verb ない form</emphB>+\
+                                <emphR>なければ</emphR> \
+                            </blockquote>\
+                            <ul>\
+                                <h4>Examples</h4>\
+                                <li><emphB><fg t="い">行く</fg></emphB>->\
+                                    <emphB><fg t="い">行け</fg></emphB>\
+                                    <emphR>ば</emphR> /\
+                                    <emphB><fg t="い">行か</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to go\
+                                    </div>\
+                                </li>\
+                                <li><emphB><fg t="か">描く</fg></emphB>->\
+                                    <emphB><fg t="か">描け</fg></emphB>\
+                                    <emphR>ば</emphR> /\
+                                    <emphB><fg t="か">描か</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to draw\
+                                    </div>\
+                                </li>\
+                                <li><emphB><fg t="はい">入る</fg></emphB>->\
+                                    <emphB><fg t="はい">入れ</fg></emphB>\
+                                    <emphR>ば</emphR> /\
+                                    <emphB><fg t="はい">入ら</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to enter\
+                                    </div>\
+                                </li>\
+                                <li><emphB><fg t="か">買う</fg></emphB>->\
+                                    <emphB><fg t="か">買え</fg></emphB>\
+                                    <emphR>ば</emphR> /\
+                                    <emphB><fg t="か">買わ</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to buy\
+                                    </div>\
+                                </li>\
+                            </ul>\
+                        </li>\
+                        <li>For type ２ Verb\
+                            <blockquote>\
+                                <emphB>without る ending</emphB>+\
+                                <emphR>れば</emphR> /\
+                                <emphB>Verb ない form</emphB>+\
+                                <emphR>なければ</emphR> \
+                            </blockquote>\
+                            <ul>\
+                                <h4>Examples</h4>\
+                                <li><emphB><fg t="た">食べる</fg></emphB>->\
+                                    <emphB><fg t="た">食べ</fg></emphB>\
+                                    <emphR>れば</emphR> /\
+                                    <emphB><fg t="た">食べ</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to eat\
+                                    </div>\
+                                </li>\
+                                <li><emphB><fg t="ね">寝る</fg></emphB>->\
+                                    <emphB><fg t="ね">寝</fg></emphB>\
+                                    <emphR>れば</emphR> /\
+                                    <emphB><fg t="ね">寝</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to sleep\
+                                    </div>\
+                                </li>\
+                                <li><emphB><fg t="で">出かける</fg></emphB>->\
+                                    <emphB><fg t="で">出かけ</fg></emphB>\
+                                    <emphR>れば</emphR> /\
+                                    <emphB><fg t="で">出かけ</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to go out\
+                                    </div>\
+                                </li>\
+                            </ul>\
+                        </li>\
+                        <li>For type 3 Verb\
+                            <ul>\
+                                <h4>Examples</h4>\
+                                <li><emphB><fg t="く">来る</fg></emphB>->\
+                                    <emphB><fg t="く">来</fg></emphB>\
+                                    <emphR>れば</emphR> /\
+                                    <emphB><fg t="こ">来</fg>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to come\
+                                    </div>\
+                                </li>\
+                                <li><emphB>する</emphB>->\
+                                    <emphB>す</emphB>\
+                                    <emphR>れば</emphR> /\
+                                    <emphB>し</emphB>\
+                                    </emphB><emphR>なければ</emphR>\
+                                    <div class="indented">\
+                                        verb.to do\
+                                    </div>\
+                                </li>\
+                            </ul>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            In front of ~ば, these are expression that comes often.\
+            <ol>\
+                <li>~で<fg t="み">見</fg>ます and its variation\
+                    <blockquote>\
+                        ~ I will give it a try.\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li>デパートのセール<emphR>ならば</emphR><fg t="か">買</fg>い<fg t="もの">物</fg>に\
+                            <fg t="い">行</fg>っ<emphB>で<fg t="み">見</fg>ます。</emphB>\
+                            <div class="indented">\
+                                If Sale in department store, I will go shopping.\
+                            </div>\
+                        </li>\
+                        <li><fg t="じ">時</fg><fg t="かん">間</fg>があ<emphR>れば</emphR>\
+                            <fg t="に">日</fg><fg t="ほん">本</fg><fg t="りゅ">旅</fg><fg t="こ">行</fg>へ\
+                            <fg t="い">行</fg>っ<emphB>で<fg t="み">見</fg>ます。</emphB>\
+                            <div class="indented">\
+                                If there is time,I will go to japan for traveling.\
+                            </div>\
+                        </li>\
+                        <li><fg t="おそ">遅</fg><emphR>くなければ</emphR>コーヒーを\
+                            <fg t="の">飲</fg>ん<emphB>で<fg t="み">見</fg>ます。</emphB>\
+                            <div class="indented">\
+                                If not late,I will drink coffee.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>~でもいいです/～なくでもいいです。 and its variation\
+                    <blockquote>\
+                        ~ It is/in&rsquo;t okay to ~.\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><fg t="いそ">忙</fg>し<emphR>くなければ</emphR>ゆっくり<fg t="やす">休</fg>ん<emphB>でもいいです。</emphB>\
+                            <div class="indented">\
+                                if not busy,it is okay to take a break.\
+                            </div>\
+                        </li>\
+                        <li>ダイエット<fg t="ちゅう">中</fg><emphR>じゃなければ</emphR>ハムバーがを\
+                            <fg t="た">食</fg>べ<emphB>でもいいです</emphB>\
+                            <div class="indented">\
+                                If not in a diet,it is okay to eat a hamburger.\
+                            </div>\
+                        </li>\
+                        <li>お<fg t="さけ">酒</fg>を<fg t="の">飲</fg>め<emphR>れば</emphR>\
+                            <fg t="うん">運</fg><fg t="てん">電</fg><emphB>しなくでもいいです。</emphB>\
+                            <div class="indented">\
+                                If you have drunken alcohol, it is okay not to drive.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>~つもりです and its variation\
+                    <blockquote>\
+                        ~ I have a thought of ~\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><fg t="ゆき">雪</fg>が<fg t="ふ">降</fg><emphR>れば\
+                            </emphR>スキーをする<emphB>つもりです。</emphB>\
+                            <div class="indented">\
+                                If it is snowing,I have a thought of skiing.\
+                            </div>\
+                        </li>\
+                        <li><fg t="あめ">雨</fg>が<fg t="と">止</fg>め<emphR>れば</emphR>\
+                            <fg t="そと">外</fg>で<fg t="はし">走</fg>る<emphB>つもりです。</emphB>\
+                            <div class="indented">\
+                                If rain stops,I have thought of jogging.\
+                            </div>\
+                        </li>\
+                        <li><fg t="かのじょう">彼女</fg>がここにい<emphR>れば</emphR>\
+                            <fg t="こく">告</fg><fg t="はく">白</fg>する<emphB>つもりです。</emphB>\
+                            <div class="indented">\
+                                If she is here,I have a thought of confession.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>가능형\
+                    <blockquote>\
+                        ~ you can ~\
+                    </blockquote>\
+                    <ul>\
+                        <h4>Examples</h4>\
+                        <li><fg t="あし">足</fg>がよ<emphR>ければ</emphR>また\
+                            <fg t="はし">走</fg>れ<emphB>ようになります。</emphB>\
+                            <div class="indented">\
+                                if the foot is healed,you get to run again.\
+                            </div>\
+                        </li>\
+                        <li><fg t="か">風</fg><fg t="ぜ">邪</fg>が\
+                            <fg t="なお">治</fg><emphR>れば</emphR>\
+                            <fg t="かい">会</fg><fg t="しゃ">社</fg>へまた\
+                            <fg t="い"></fg>行<emphB>けます。</emphB>\
+                            <div class="indented">\
+                                if you recover from cold,you can go to the work.\
+                            </div>\
+                        </li>\
+                        <li><fg t="ゆう">有</fg><fg t="めい">名</fg>な\
+                            <fg t="か">歌</fg><fg t="しゅう">手</fg><emphR>ならば</emphR>\
+                            <fg t="おお">多</fg>いファンたちがある<emphB>ことが\
+                            <fg t="で">出</fg><fg t="き">来</fg>ます</emphB>\
+                            <div class="indented">\
+                                if famous singer,you can have many fans.\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ol>\
+        </section>',
     chap31:
         '',
     chap32:
