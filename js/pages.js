@@ -2450,5 +2450,7 @@ const pages = {
     chap30:
         '',
     chap31:
+        '',
+    chap32:
         ''
 };
