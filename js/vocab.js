@@ -615,7 +615,33 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap30:
-        '',
+        '<h2 class="leftText">chapter30 Vocab</h2>\
+        <div class="clearB"></div>\
+        <ul class="floatL">\
+            <li><emphR>おこずかい</emphR>:\
+                <emphB t="t">allowance</emphB></li>\
+            <li><emphR t="t"><fg t="はじ">始める</fg></emphR>:\
+                <emphB t="t">to start</emphB></li>\
+            <li><emphR t="t"><fg t="はじ">始まる</fg></emphR>:\
+                <emphB t="t">to be started</emphB></li>\
+            <li><emphR t="t">~に<fg t="かよ">通う</fg></emphR>:\
+                <emphB t="t">to go(regularly)</emphB></li>\
+            <li><emphR t="t"><fg t="じつ">実は</fg></emphR>:\
+                <emphB t="t">actually</emphB></li>\
+        </ul>\
+        <ul class="floatL">\
+            <li><emphR t="t"><fg t="はたち">二十歳</fg></emphR>:\
+                <emphB t="t">20 years old</emphB></li>\
+            <li><emphR t="t"><fg t="はつか">二十日</fg></emphR>:\
+                <emphB t="t">20th of the month</emphB></li>\
+            <li><emphR t="t"><fg t="りょうり">料理</fg><fg t="ぎょうしつ">教室</fg></emphR>:\
+                <emphB t="t">cooking lesson</emphB></li>\
+            <li><emphR t="t"><fg t="かい">外</fg><fg t="こく">国</fg></emphR>:\
+                <emphB t="t">foreign country</emphB></li>\
+            <li><emphR t="t">すぐ</emphR>:\
+                <emphB t="t">soon</emphB></li>\
+        </ul>\
+        <div class="clearB"></div>',
     chap31:
         '',
     chap32:
