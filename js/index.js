@@ -52,6 +52,9 @@ const nav = {
     },
     chap32:()=>{
         $("#mainArticle").html(pages.chap32);
+    },
+    chap33:()=>{
+        $("#mainArticle").html(pages.chap33);
     }
 };
 
@@ -100,9 +103,13 @@ const vocabs = {
     },
     chap31:()=>{
         $("#mainArticle").html(vocab.chap31);
+        funcs.renderVocabList(vocab_db[0].vocabs,"list1","list2");
     },
     chap32:()=>{
         $("#mainArticle").html(pages.chap32);
+    },
+    chap33:()=>{
+        $("#mainArticle").html(pages.chap33);
     }
 }
 
@@ -285,5 +292,31 @@ const funcs = {
         $(".practiceSentence").html(
             'ex)<input type="text" style="width:250px;height:30px;">'
         )
+    },
+    renderVocabList:(vocabs,list1,list2)=>{
+        $("#"+list1).append("<ul>");
+        $("#"+list2).append("<ul>");
+        let first = [];
+        let second = [];
+        let size = vocabs.length;
+        for (let i = 0;i < size;i++){
+            first = vocabs[i].first.split(".");
+            second = vocabs[i].second.split(".");
+            if (i < size/2){
+                $("#"+list1).append(
+                    funcs.renderEachVocab(first,second)
+                );
+            }else{
+                $("#"+list2).append(
+                    funcs.renderEachVocab(first,second)
+                );
+            }
+        }
+        $("#"+list1).append("</ul>");
+        $("#"+list2).append("</ul>");
+    },
+    renderEachVocab:(first,second)=>{
+        return '<li><emphR><fg t="'+first[1]+'">'+first[0]+'</fg></emphR>\
+                :'+ second[0]+'. <emphB>'+second[1]+'</emphB></li>';
     }
 }

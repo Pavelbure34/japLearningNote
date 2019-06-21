@@ -1,6 +1,4 @@
 const vocab = {
-    day02:
-        '',
     chap20:
         '<h2 class="leftText">chapter20 Vocab</h2>\
         <section>\
@@ -645,8 +643,8 @@ const vocab = {
     chap31:
         '<h2 class="leftText">chapter31 Vocab</h2>\
         <div class="clearB"></div>\
-        <div id="list1"></div>\
-        <div id="list2"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     chap32:
         ''
@@ -689,7 +687,7 @@ const vocab_db = [
             {
                 key:7,
                 first:'嫌だ.いや',
-                second:'Adjective.<emphB></emphB>'
+                second:'Adjective.not liking'
             },
             {
                 key:8,
@@ -720,6 +718,56 @@ const vocab_db = [
                 key:12,
                 first:'ぐっすり.',
                 second:'adverb.well(for sleeping)'
+            },
+            {
+                key:13,
+                first:'天気予報.てんきよほう',
+                second:'Noun.Weather Report'
+            },
+            {
+                key:14,
+                first:'止る.や',
+                second:'Verb.to stop(for rain)'
+            },
+            {
+                key:15,
+                first:'受かる.う',
+                second:'Verb.to pass(the test)'
+            },
+            {
+                key:16,
+                first:'ぶつかる.',
+                second:'Verb.to collide'
+            },
+            {
+                key:17,
+                first:'取れる.と',
+                second:'Verb.to drop(for button)'
+            },
+            {
+                key:18,
+                first:'幸せだ.しあわ',
+                second:'adjective.happy'
+            },
+            {
+                key:19,
+                first:'嬉しい.うれ',
+                second:'adjective.joyful'
+            },
+            {
+                key:20,
+                first:'悲しい.かな',
+                second:'adjective.sad,gloomy'
+            }
+        ]
+    },
+    {
+        id:32,
+        vocabs:[
+            {
+                key:1,
+                first:'',
+                second:''
             }
         ]
     }
