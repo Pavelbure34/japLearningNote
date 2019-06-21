@@ -643,7 +643,84 @@ const vocab = {
         </ul>\
         <div class="clearB"></div>',
     chap31:
-        '',
+        '<h2 class="leftText">chapter31 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1"></div>\
+        <div id="list2"></div>\
+        <div class="clearB"></div>',
     chap32:
         ''
 }
+
+const vocab_db = [
+    {
+        id:31,
+        vocabs:[
+            {
+                key:1,
+                first:'単語.たんご',
+                second:'Noun.vocabulary'
+            },
+            {
+                key:2,
+                first:'覚える.おぼ',
+                second:'Verb.to memorize,remember'
+            },
+            {
+                key:3,
+                first:'練習する.れんしゅう',
+                second:'Verb.to practice'
+            },
+            {
+                key:4,
+                first:'遅く.おそ',
+                second:'Adverb.late'
+            },
+            {
+                key:5,
+                first:'早く.はや',
+                second:'Adverb.fast,earlily'
+            },
+            {
+                key:6,
+                first:'やせる.',
+                second:'Verb.to get lean'
+            },
+            {
+                key:7,
+                first:'嫌だ.いや',
+                second:'Adjective.<emphB></emphB>'
+            },
+            {
+                key:8,
+                first:'お金持ち.かねもち',
+                second:'Noun.a rich person'
+            },
+            {
+                key:9,
+                first:'おごる.',
+                second:'Verb.to buy for the meal'
+            },
+            {
+                key:9,
+                first:'~しか.',
+                second:'adverb.~밖에'
+            },
+            {
+                key:10,
+                first:'~だけ.',
+                second:'adverb.~뿐'
+            },
+            {
+                key:11,
+                first:'多分.たぶん',
+                second:'adverb.maybe,perhaps'
+            },
+            {
+                key:12,
+                first:'ぐっすり.',
+                second:'adverb.well(for sleeping)'
+            }
+        ]
+    }
+]
