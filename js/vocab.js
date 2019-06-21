@@ -758,6 +758,16 @@ const vocab_db = [
                 key:20,
                 first:'悲しい.かな',
                 second:'adjective.sad,gloomy'
+            },
+            {
+                key:21,
+                first:'上がる.あ',
+                second:'Verb.to raise(price)'
+            },
+            {
+                key:22,
+                first:'下がる.さ',
+                second:'Verb.to lower(price)'
             }
         ]
     },
