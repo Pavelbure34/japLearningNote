@@ -3017,7 +3017,150 @@ const pages = {
             </section>\
         </section>',
     chap32:
-        '',
+        '<h2 class="leftText">chapter32.~ようです</h2>\
+        These expressions are used for\
+        <emphR>supposition based on observation, sensual experience using eye sights, hearings</emphR>.\
+        <section>\
+            <h3 class="centerText"><emphB>Reg Form</emphB> + <emphR>ようです</emphR></h3>\
+            <blockquote>\
+                supposing based on observation, sensual experience using eye sights, hearings\
+                but <emphR>more polite one for writing and official spots.</emphR>\
+            </blockquote>\
+            <ul>\
+                <h4>Example</h4>\
+                <li>ポーリスが<fg t="いま">今</fg><fg t="そと">外</fg>へあるので<fg t="なに">何</fg>か\
+                    ある<emphR>ようです</emphR>\
+                    <div class="indented">\
+                        Since police is outside,There must be something going on.\
+                    </div>\
+                </li>\
+                <li><fg t="かのじょう">彼女</fg>は\
+                    <fg t="さいきん">最近</fg><fg t="よ">良</fg>く\
+                    <fg t="わら">笑</fg>うので<fg t="たぶん">多分</fg>\
+                    <fg t="かれし">彼氏</fg>が<fg t="で">出</fg>った<emphR>ようです</emphR>。\
+                    <div class="indented">\
+                        Since she smiles a lot lately,she maybe got herself a boyfriend.\
+                    </div>\
+                </li>\
+                <li><fg t="かれ">彼</fg>は<fg t="さいきん">最近</fg>\
+                    <fg t="きぶん">気分</fg>がいいです。<fg t="い">行</fg>\
+                    きたいな<fg t="だいがく">大学</fg>の\
+                    <fg t="じけん">試験</fg>で<fg t="う">受</fg>かった\
+                    <emphR>ようです</emphR>。\
+                    <div class="indented">\
+                        He is in good mood lately.He must have passed the test for univ he wants to go.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            <h3 class="centerText"><emphB>Reg Form</emphB> + <emphR><fg t="み">見</fg>たいです</emphR></h3>\
+            <blockquote>\
+                <emphB>Identical to expression above</emphB> but <emphR>more casual one.</emphR>\
+            </blockquote>\
+            <ul>\
+                <h4>Example</h4>\
+                <li>ポーリスが<fg t="いま">今</fg><fg t="そと">外</fg>へあるので<fg t="なに">何</fg>か\
+                    ある<emphR><fg t="み">見</fg>たいです</emphR>\
+                    <div class="indented">\
+                        Since police is outside,There must be something going on.\
+                    </div>\
+                </li>\
+                <li><fg t="かのじょう">彼女</fg>は\
+                    <fg t="さいきん">最近</fg><fg t="よ">良</fg>く\
+                    <fg t="わら">笑</fg>うので<fg t="たぶん">多分</fg>\
+                    <fg t="かれし">彼氏</fg>が<fg t="で">出</fg>った\
+                    <emphR><fg t="み">見</fg>たいです</emphR>。\
+                    <div class="indented">\
+                        Since she smiles a lot lately,she maybe got herself a boyfriend.\
+                    </div>\
+                </li>\
+                <li><fg t="かれ">彼</fg>は<fg t="さいきん">最近</fg>\
+                    <fg t="きぶん">気分</fg>がいいです。<fg t="い">行</fg>\
+                    きたいな<fg t="だいがく">大学</fg>の\
+                    <fg t="じけん">試験</fg>で<fg t="う">受</fg>かった\
+                    <emphR><fg t="み">見</fg>たいです</emphR>。\
+                    <div class="indented">\
+                        He is in good mood lately.He must have passed the test for univ he wants to go.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            <article>\
+                <h3 class="centerText">~<emphR>ような</emphR> + Noun</h3>\
+                <blockquote>\
+                    Using ようです as adjective to the Noun.\
+                </blockquote>\
+                <ul>\
+                    <h4>Example</h4>\
+                    <li><fg t="やまぐち">山口</fg><fg t="せんしゅ">選手</fg>は\
+                        <fg t="まつ">松</fg><fg t="い">井</fg><fg t="ひで">秀</fg><fg t="き">喜</fg>さん\
+                        <emphR>のような</emphR>\
+                        いいホームランバッタです。\
+                        <div class="indented">\
+                            Yamaguchi is a good homerun hitter like Matsui Hideki.\
+                        </div>\
+                    </li>\
+                    <li><fg t="こう">神</fg><fg t="やま">山</fg>さんは\
+                        タームクルーズみたいに\
+                        ハンサム\
+                        <emphR>なような</emphR>\
+                        <fg t="はいゆう">俳優</fg>です。\
+                        <div class="indented">\
+                            Mr.Kouyama is a hadsome actor like Tom Cruise.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </article>\
+            <article>\
+                <h3 class="centerText">~<emphR>ように</emphR> + Verb, Adjective</h3>\
+                <blockquote>\
+                    Using ようです as adverb to Verb and Adjective.\
+                </blockquote>\
+                <ul>\
+                    <h4>Example</h4>\
+                    <li><fg t="かれ">彼</fg>は\
+                        <fg t="たま">球</fg>を\
+                        <fg t="の">野</fg><fg t="もう">茂</fg>\
+                        <fg t="ひで">英</fg><fg t="お">雄</fg>\
+                        <emphR>のように</emphR>なげた。\
+                        <div class="indented">\
+                            He threw the pitch like Hideo Nomo.\
+                        </div>\
+                    </li>\
+                    <li><fg t="かのじょう">彼女</fg>は\
+                        <fg t="ひ">日</fg><fg t="だか">高</fg>\
+                        のりこ\
+                        <emphR>のように</emphR>\
+                        いい<fg t="せいゆう">声優</fg>でした。\
+                        <div class="indented">\
+                            She was a good voice actress like Hidaka Noriko.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </article>\
+            <ul>\
+                <li>You can do that same with\
+                    <emphR><fg t="み">見</fg>たいです</emphR> expression\
+                </li>\
+            </ul>\
+        </section>'+
+        '<ul>\
+            <h4><emphR>exceptions!</emphR></h4>\
+            <li>ようです,ような,ように\
+                <ul>\
+                    <li>\
+                        <emphB>Noun</emphB> + <emphB>の</emphB>\
+                        <emphR>ようです,ような,ように</emphR>\
+                    </li>\
+                    <li>\
+                        <emphB>な Adj</emphB> + <emphB>な</emphB>\
+                        <emphR>ようです,ような,ように</emphR>\
+                    </li>\
+                </ul>\
+            </li>\
+        </ul>',
     chap33:
         '',
     chap34:
