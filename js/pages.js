@@ -2964,6 +2964,57 @@ const pages = {
                     </ul>\
                 </li>\
             </ol>\
+        </section>'+
+        '<section>\
+            <h3>そうな/そうに</h3>\
+            <section>\
+                <blockquote>\
+                    <emphR>~そうな</emphR>+<emphB>Noun</emphB>\
+                    :Adjective.～일것같은\
+                </blockquote>\
+                <ul>\
+                    <h4>Example</h4>\
+                    <li><fg t="かれ">彼</fg>らは<fg t="ふりょう">不良</fg>\
+                        <emphR>そうな</emphR><fg t="こうこせい">高校生</fg>たちだった。\
+                        <div class="indented">\
+                            They were seemingly delinquent high school students. \
+                        </div>\
+                    </li>\
+                    <li><fg t="おい">美味</fg>し\
+                        <emphR>そうな</emphR>パーンです。\
+                        <div class="indented">\
+                            It was seemingly delicious bread.\
+                        </div>\
+                    </li>\
+                    <li><fg t="たか">高</fg>\
+                        <emphR>そうな</emphR>コートだった。\
+                        <div class="indented">\
+                            It was seemingly expesnive coat.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </section>'+
+            '<section>\
+                <blockquote>\
+                    <emphR>~そうに</emphR>+<emphB>Verb or Adjective</emphB>\
+                    :Adverb.～일것같이\
+                </blockquote>\
+                <ul>\
+                    <h4>Example</h4>\
+                    <li>この<fg t="りょうり">料理</fg>は<fg t="から">辛</fg>\
+                        <emphR>ように</emphR><fg t="み">見</fg>えます。\
+                        <div class="indented">\
+                            This food looks spicy.\
+                        </div>\
+                    </li>\
+                    <li>あの<fg t="たま">球</fg>は<fg t="つよ">強</fg>\
+                        <emphR>ように</emphR><fg t="み">見</fg>えます。\
+                        <div class="indented">\
+                            This pitch looks tough.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </section>\
         </section>',
     chap32:
         '',
