@@ -647,6 +647,14 @@ const vocab = {
         <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     chap32:
+        '<h2 class="leftText">chapter32 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>',
+    chap33:
+        '',
+    chap34:
         ''
 }
 
@@ -773,6 +781,96 @@ const vocab_db = [
     },
     {
         id:32,
+        vocabs:[
+            {
+                key:1,
+                first:'具合.ぐ_あい',
+                second:'Noun.body condition'
+            },
+            {
+                key:2,
+                first:'話.はなし',
+                second:'Noun.conversation'
+            },
+            {
+                key:3,
+                first:'物価.ふっか',
+                second:'Noun.price,물가'
+            },
+            {
+                key:4,
+                first:'印象.いん_しょう',
+                second:'Noun.impression'
+            },
+            {
+                key:5,
+                first:'夫婦.ふっふ',
+                second:'Noun.Married Couple'
+            },
+            {
+                key:6,
+                first:'寂しい.さび',
+                second:'Adjective.lonely'
+            },
+            {
+                key:7,
+                first:'怖い.こわ',
+                second:'Adjective.scary'
+            },
+            {
+                key:8,
+                first:'厳しい.きび',
+                second:'Adjective.Strict'
+            },
+            {
+                key:9,
+                first:'重い.おも',
+                second:'Adjective.Heavy'
+            },
+            {
+                key:10,
+                first:'軽い.かる',
+                second:'Adjective.light'
+            },
+            {
+                key:11,
+                first:'丈夫だ.じょう_ぶ',
+                second:'Adjective.튼튼한'
+            },
+            {
+                key:12,
+                first:'ぶつかる.',
+                second:'Verb.to Collide'
+            },
+            {
+                key:13,
+                first:'探す.さが',
+                second:'Verb.to Find'
+            },
+            {
+                key:14,
+                first:'得意だ.とく_い',
+                second:'Adjective.best at'
+            },
+            {
+                key:15,
+                first:'口が固い.くち_かた',
+                second:'Adjective.입이 무거운'
+            }
+        ]
+    },
+    {
+        id:33,
+        vocabs:[
+            {
+                key:1,
+                first:'',
+                second:''
+            }
+        ]
+    },
+    {
+        id:34,
         vocabs:[
             {
                 key:1,

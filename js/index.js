@@ -55,6 +55,9 @@ const nav = {
     },
     chap33:()=>{
         $("#mainArticle").html(pages.chap33);
+    },
+    chap34:()=>{
+        $("#mainArticle").html(pages.chap34);
     }
 };
 
@@ -106,10 +109,94 @@ const vocabs = {
         funcs.renderVocabList(vocab_db[0].vocabs,"list1","list2");
     },
     chap32:()=>{
-        $("#mainArticle").html(pages.chap32);
+        $("#mainArticle").html(vocabs.chap32);
+        $("#list1").append("<ul>");
+        $("#list2").append("<ul>");
+        let first,second,third = [];
+        let size = vocab_db[1].length;
+        let vocablist = vocab_db[1].vocabs;
+        let key = vocab_db[1].key;
+        for (let i = 0;i < size;i++){
+            first = vocablist[i].first.split(".");
+            second = vocablist[i].second.split(".");
+            if (
+                key === 1 || key === 4 ||
+                key === 11 || key === 14 ||
+                key === 15
+            ){
+                third = first[1].split("_"); 
+            }
+            if (i < size/2 && (
+                i != 0 && i != 3
+            )){
+                $("#list1").append(
+                    funcs.renderEachVocab(first,second)
+                );
+            }else if (i > size/2 && (
+                i != 10 && i != 13 &&
+                i != 14
+            )){
+                $("#list2").append(
+                    funcs.renderEachVocab(first,second)
+                );
+            }else{
+                switch (i){
+                    case 0:
+                        $("#list1").append(
+                            '<li><emphR><fg t="'
+                                + third[0]+'">具</fg>'+
+                                '<fg t="'+ third[2]
+                                +'">合</fg>:'+second[0]
+                                +'<emphB>'+second[1]+
+                            '</emphB></li>'
+                        );
+                    case 3:
+                        $("#list1").append(
+                            '<li><emphR><fg t="'
+                                + third[0]+'">印</fg>'+
+                                '<fg t="'+ third[2]
+                                +'">しょう</fg>:'+second[0]
+                                +'<emphB>'+second[1]+
+                            '</emphB></li>'
+                        );
+                    case 10:
+                        $("#list2").append(
+                            '<li><emphR><fg t="'
+                                + third[0]+'">丈</fg>'+
+                                '<fg t="'+ third[2]
+                                +'">夫だ</fg>:'+second[0]
+                                +'<emphB>'+second[1]+
+                            '</emphB></li>'
+                        );
+                    case 13:
+                        $("#list2").append(
+                            '<li><emphR><fg t="'
+                                + third[0]+'">得</fg>'+
+                                '<fg t="'+ third[2]
+                                +'">意だ</fg>:'+second[0]
+                                +'<emphB>'+second[1]+
+                            '</emphB></li>'
+                        );
+                    case 14:
+                        $("#list2").append(
+                            '<li><emphR><fg t="'
+                                + third[0]+'">口が</fg>'+
+                                '<fg t="'+ third[2]
+                                +'">固い</fg>:'+second[0]
+                                +'<emphB>'+second[1]+
+                            '</emphB></li>'
+                        );
+                }
+            }
+        }
+        $("#list1").append("</ul>");
+        $("#list2").append("</ul>");
     },
     chap33:()=>{
-        $("#mainArticle").html(pages.chap33);
+        $("#mainArticle").html(vocabs.chap33);
+    },
+    chap34:()=>{
+        $("#mainArticle").html(vocabs.chap34);
     }
 }
 
