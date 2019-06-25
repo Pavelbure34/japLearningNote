@@ -3162,7 +3162,157 @@ const pages = {
             </li>\
         </ul>',
     chap33:
-        '',
+        '<h2 class="leftText">chapter33.passive form of verb in sentence</h2>\
+        In Japanese,passive participle of verb and sentence is quite different from English.<br>\
+        In Japanese, when using passive tense,\
+        you imply that <emphR>you have damaged by the one who did the action</emphR><br>\
+        <emphB>regardless of human or non-human</emphB> most of the time.\
+        <ul>\
+            <li>Converted form is always type 2 verb.</li>\
+            <li>When you translate the passive clause,imply the feeling from the action.</li>\
+            <li>Passive tense implies speaker&rsquo;s feeling so commonly used by Japaneses.</li>\
+        </ul>'+
+        '<section>\
+            <h3 class="centerText">How to convert</h3>\
+            <ul class="noBulletPt">\
+                <li>1G Verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>change</emphB>\
+                                    <emphR>う type ending to あ type</emphR>.</li>\
+                            <li><emphB>append</emphB>\
+                                <emphR>れる</emphR> at the end.</li>\
+                            <li>If <emphR>う ending</emphR>,\
+                                <emphB>append</emphB>\
+                                <emphR>われる</emphR> at the end.</li>\
+                        </ol>\
+                    </blockquote>\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="ぬす">盗む</fg></emphB>->\
+                            <emphB><fg t="ぬす">盗</fg></emphB><emphR>まれる</emphR>\
+                            <div class="indented">\
+                                to steal -> got stolen so feel bad!\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="か">嚙む</fg></emphB>->\
+                            <emphB><fg t="か">嚙</fg></emphB><emphR>まれる</emphR>\
+                            <div class="indented">\
+                                to bite(with teeth or fang) -> to get bitten with fang or teeth and feel bad!\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="たの">頼む</fg></emphB>->\
+                            <emphB><fg t="たの">頼</fg></emphB><emphR>まれる</emphR>\
+                            <div class="indented">\
+                                to ask for favor -> to be asked favor(or feel bad)'+ 
+                            '</div>'+
+                        '</li>\
+                        <li><emphB><fg t="な">泣く</fg></emphB>->\
+                            <emphB><fg t="な">泣</fg></emphB><emphR>かれる</emphR>\
+                            <div class="indented">\
+                                to cry -> to listen to someone&rsquo;s crying and feel damaged.\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="わら">笑う</fg></emphB>->\
+                            <emphB><fg t="わら">笑</fg></emphB><emphR>われる</emphR>\
+                            <div class="indented">\
+                                to smile -> to get laughed upon and feel bad!\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ふ">踏む</fg></emphB>->\
+                            <emphB><fg t="ふ">踏</fg></emphB><emphR>まれる</emphR>\
+                            <div class="indented">\
+                                to step on -> got stepped on and feel bad!\
+                            </div>\
+                        </li>'+
+                    '</ul>\
+                </li>'+
+                '<li>2G Verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphR>Get rid</emphR>\
+                                of <emphB>る ending</emphB>.</li>\
+                            <li><emphB>append</emphB>\
+                                <emphR>られる</emphR> at the end.</li>\
+                        </ol>\
+                    </blockquote>\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="た">食べる</fg></emphB>->\
+                            <emphB><fg t="た">食べ</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to eat ->\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="み">見る</fg></emphB>->\
+                            <emphB><fg t="み">見</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to see -> to be seen and feel bad!\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="す">捨てる</fg></emphB>->\
+                            <emphB><fg t="す">捨て</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to throw away -> to get thrown away and feel bad!\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+                <li>3G Verb\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="　">する</fg></emphB>-><emphB><fg t="　">される</fg></emphB>\
+                            <div class="indented">\
+                                to do -> someone did to me and feel bad!'+ 
+                            '</div>\
+                        </li>\
+                        <li><emphB><fg t="く">来る</fg></emphB>->\
+                            <emphB><fg t="こ">来</fg></emphB><emphR>られる</emphR>\
+                            <div class="indented">\
+                                to come -> someone come to me and feel bad.'+  
+                            '</div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">Usage in actual sentences</h3>\
+            <ul>\
+                <li><fg t="せんぱい">先輩</fg><emphR>にほめられて</emphR><fg t="うれ">嬉</fg>しいです。\
+                    <div class="indented">\
+                        I feel good because I got praised by senpai.\
+                    </div>\
+                </li>\
+                <li><fg t="きのう">昨日</fg><fg t="かさ">傘</fg>がなかったから\
+                    <fg t="あめ">雨</fg><emphR>に<fg t="ふ">降</fg>られったんです</emphR>。\
+                    <div class="indented">\
+                        Without the umbrella, I got soaked by rain yesterday(and it felt bad).\
+                    </div>\
+                </li>\
+                <li><fg t="わたし">私</fg>の<fg t="だいせつ">大切</fg>な\
+                    <fg t="もの">物</fg>を<fg t="どろぼう">泥棒</fg><emphR>に<fg t="ぬす">盗</fg>まれました</emphR>。\
+                    <div class="indented">\
+                        My precious thing was stolen by theif(and feel bad).\
+                    </div>\
+                </li>\
+                <li><fg t="せま">狭</fg>い\
+                    <fg t="ち">地</fg><fg t="か">下</fg><fg t="てつ">鉄</fg>の\
+                    <fg t="なか">中</fg>で<fg t="だれ">誰</fg>か<emphR>に</emphR>\
+                    <fg t="あし">足</fg>が\
+                    <emphR><fg t="ふ">踏</fg>まれました</emphR>。\
+                    <div class="indented">\
+                        my feet got stepped on somebody in the train(and felt bad).\
+                    </div>\
+                </li>\
+                <li><fg t="わたし">私</fg>は<fg t="となり">隣</fg>の\
+                    <fg t="ひと">人</fg><emphR>にタバコをすられました</emphR>。\
+                    <div class="indented">\
+                        A person next to me smoked too much(so I felt bad).\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap34:
         '',
     chap35:
