@@ -160,6 +160,13 @@ const funcs = {
             'ex)<input type="text" style="width:250px;height:30px;">'
         )
     },
+    subarray:(array)=>{
+        let subarray = [];
+        for (let i = 0;i < array.length;i++){
+            subarray = array[i].split("_");
+            array[i] = subarray;
+        }
+    },
     renderVocabList:(vocabs,list1,list2)=>{
         $("#"+list1).append("<ul>");
         $("#"+list2).append("<ul>");
@@ -168,6 +175,7 @@ const funcs = {
         let size = vocabs.length;
         for (let i = 0;i < size;i++){
             first = vocabs[i].first.split(".");
+            funcs.subarray(first);
             second = vocabs[i].second.split(".");
             if (i < size/2){
                 $("#"+list1).append(
@@ -183,7 +191,22 @@ const funcs = {
         $("#"+list2).append("</ul>");
     },
     renderEachVocab:(first,second)=>{
-        return '<li><emphR><fg t="'+first[1]+'">'+first[0]+'</fg></emphR>\
-                :'+ second[0]+'. <emphB>'+second[1]+'</emphB></li>';
+        let size = first[0].length; 
+        if (size > 1){
+            switch (size){
+                case 2:
+                    return '<li><emphR><fg t="'+first[1][0]+'">'+first[0][0]+'</fg>\
+                        <fg t="'+first[1][1]+'">'+first[0][1]+'</fg></emphR>\
+                        :'+ second[0]+'. <emphB>'+second[1]+'</emphB></li>';
+                case 3:
+                    return '<li><emphR><fg t="'+first[1][0]+'">'+first[0][0]+'</fg>\
+                        <fg t="'+first[1][1]+'">'+first[0][1]+'</fg></emphR>\
+                        <fg t="'+first[1][2]+'">'+first[0][2]+'</fg></emphR>\
+                        :'+ second[0]+'. <emphB>'+second[1]+'</emphB></li>';
+            }
+        }else{
+            return '<li><emphR><fg t="'+first[0][1]+'">'+first[0][0]+'</fg></emphR>\
+            :'+ second[0]+'. <emphB>'+second[1]+'</emphB></li>';  
+        }
     }
 }

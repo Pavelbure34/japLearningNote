@@ -664,37 +664,37 @@ const vocab_db = [
         vocabs:[
             {
                 key:1,
-                first:'単語.たんご',
+                first:'単語_.たんご_',
                 second:'Noun.vocabulary'
             },
             {
                 key:2,
-                first:'覚える.おぼ',
+                first:'覚える_.おぼ_',
                 second:'Verb.to memorize,remember'
             },
             {
                 key:3,
-                first:'練習する.れんしゅう',
+                first:'練習する_.れんしゅう_',
                 second:'Verb.to practice'
             },
             {
                 key:4,
-                first:'遅く.おそ',
+                first:'遅く_.おそ_',
                 second:'Adverb.late'
             },
             {
                 key:5,
-                first:'早く.はや',
+                first:'早く_.はや_',
                 second:'Adverb.fast,earlily'
             },
             {
                 key:6,
-                first:'やせる.',
+                first:'やせる_ . _',
                 second:'Verb.to get lean'
             },
             {
                 key:7,
-                first:'嫌だ.いや',
+                first:'嫌だ _.いや _',
                 second:'Adjective.not liking'
             },
             {
@@ -704,7 +704,7 @@ const vocab_db = [
             },
             {
                 key:9,
-                first:'おごる.',
+                first:'おごる_ ._',
                 second:'Verb.to buy for the meal'
             },
             {
@@ -799,7 +799,7 @@ const vocab_db = [
             },
             {
                 key:4,
-                first:'印象.いん_しょう',
+                first:'印象.いんしょう',
                 second:'Noun.impression'
             },
             {
@@ -834,7 +834,7 @@ const vocab_db = [
             },
             {
                 key:11,
-                first:'丈夫だ.じょう_ぶ',
+                first:'丈_夫だ.じょう_ぶ',
                 second:'Adjective.튼튼한'
             },
             {
@@ -849,12 +849,12 @@ const vocab_db = [
             },
             {
                 key:14,
-                first:'得意だ.とく_い',
+                first:'得意だ.とくい',
                 second:'Adjective.best at'
             },
             {
                 key:15,
-                first:'口が固い.くち_かた',
+                first:'口が_固い.くち_かた',
                 second:'Adjective.입이 무거운'
             }
         ]
@@ -864,13 +864,228 @@ const vocab_db = [
         vocabs:[
             {
                 key:1,
+                first:'集まる.あつ',
+                second:'Verb.to gether.'
+            },
+            {
+                key:2,
+                first:'事項.じこ',
+                second:'Noun.accident.'
+            },
+            {
+                key:3,
+                first:'まるで.',
+                second:'Adverb.마치'
+            },
+            {
+                key:4,
+                first:'どうやら',
+                second:'Adverb.아무래도(=どうも)'
+            },
+            {
+                key:5,
+                first:'事務室.じむしつ',
+                second:'Noun.Office'
+            },
+            {
+                key:6,
+                first:'人形.にんぎょう',
+                second:'Noun.doll'
+            },
+            {
+                key:7,
+                first:'けんか.',
+                second:'Noun.fight'
+            },
+            {
+                key:8,
+                first:'並ぶ.なら',
+                second:'Verb.to wait in line'
+            },
+            {
+                key:9,
+                first:'別れる.わか',
+                second:'Verb.to break up with'
+            },
+            {
+                key:10,
+                first:'辞める.や',
+                second:'Verb.to quit'
+            },
+            {
+                key:11,
+                first:'急に.きゅう',
+                second:'Adverb.Suddenly'
+            },
+            {
+                key:12,
+                first:'治る.なお',
+                second:'Verb.to get better'
+            },
+            {
+                key:13,
+                first:'引っ_越す.ひ_こ',
+                second:'Verb.to move out'
+            },
+            {
+                key:14,
+                first:'鼻水.はなみず',
+                second:'Noun.Mucus'
+            },
+            {
+                key:15,
+                first:'せき.',
+                second:'Noun.Cough'
+            },
+            {
+                key:16,
+                first:'電話に_出る.でんわ_で',
+                second:'Verb.to answer the phone'
+            },
+            {
+                key:17,
+                first:'元気に_出す.げんき_だ',
+                second:'Verb.to get energized'
+            },
+            {
+                key:18,
+                first:'蚊.か',
+                second:'Noun.mosquito'
+            },
+            {
+                key:19,
+                first:'すり.',
+                second:'Noun.pickpocketer'
+            },
+            {
+                key:20,
+                first:'困る.こま',
+                second:'Verb.to get ambarrassed'
+            },
+            {
+                key:21,
+                first:'せれる.',
+                second:'Verb.to touch'
+            },
+            {
+                key:22,
+                first:'泥棒.どろぼう',
+                second:'Noun.thief'
+            },
+            {
+                key:23,
+                first:'タバコをする.',
+                second:'Verb.to smoke cigarette'
+            },
+            {
+                key:24,
+                first:'盗む.ぬす',
+                second:'Verb.to steal'
+            },
+            {
+                key:25,
+                first:'嚙む.か',
+                second:'Verb.to bite(with fang or teeth)'
+            },
+            {
+                key:26,
+                first:'頼む.たの',
+                second:'Verb.to ask for favor'
+            },
+            {
+                key:27,
+                first:'泣く.な',
+                second:'Verb.to cry'
+            },
+            {
+                key:28,
+                first:'笑う.わら',
+                second:'Verb.to smile'
+            },
+            {
+                key:29,
+                first:'踏む.ふ',
+                second:'Verb.to step on'
+            },
+            {
+                key:30,
+                first:'呼ぶ.よ',
+                second:'Verb.to call(someone)'
+            },
+            {
+                key:31,
+                first:'ほめる.',
+                second:'Verb.to praise,complement'
+            },
+            {
+                key:32,
+                first:'𠮟る.しか',
+                second:'Verb.to scold(with points)'
+            },
+            {
+                key:33,
+                first:'怒る.おこ',
+                second:'Verb.to get angry(with no proof)'
+            },
+            {
+                key:34,
+                first:'撮る.と',
+                second:'Verb.to take a picture of'
+            },
+            {
+                key:35,
+                first:'壊す.こわ',
+                second:'Verb.to ruin'
+            },
+            {
+                key:36,
+                first:'さす.',
+                second:'Verb.to bite(by insects)'
+            },
+            {
+                key:37,
+                first:'ふる.',
+                second:'Verb.차다'
+            },
+            {
+                key:38,
+                first:'いじめる.',
+                second:'Verb.to bully'
+            },
+            {
+                key:39,
+                first:'汚す.よごす',
+                second:'Verb.to make it messy'
+            },
+            {
+                key:40,
+                first:'殴る.なぐ',
+                second:'Verb.to beat'
+            },
+            {
+                key:41,
+                first:'捨てる.す',
+                second:'Verb.to throw away'
+            },
+            {
+                key:42,
+                first:'誘う.さそ',
+                second:'Verb.to recommend'
+            }
+        ]
+    },
+    {
+        id:34,
+        vocabs:[
+            {
+                key:1,
                 first:'',
                 second:''
             }
         ]
     },
     {
-        id:34,
+        id:35,
         vocabs:[
             {
                 key:1,
