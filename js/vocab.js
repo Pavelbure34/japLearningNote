@@ -1079,8 +1079,23 @@ const vocab_db = [
         vocabs:[
             {
                 key:1,
-                first:'',
-                second:''
+                first:'痒い.かゆ',
+                second:'Adjective.Tickly'
+            },
+            {
+                key:2,
+                first:'招待する.しょうたい',
+                second:'Verb.to invite'
+            },
+            {
+                key:3,
+                first:'噓をつく.うそ',
+                second:'Verb.to lie'
+            },
+            {
+                key:4,
+                first:'げんきがない.げんき',
+                second:'Adjective.not having energy'
             }
         ]
     },
