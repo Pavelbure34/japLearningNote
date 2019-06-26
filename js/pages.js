@@ -3314,7 +3314,175 @@ const pages = {
             </ul>\
         </section>',
     chap34:
-        '',
+        '<h2 class="leftText">chapter34.have,let,make in Jap.</h2>\
+        When you use verb in commanding form,\
+        <ol>\
+            <li>you make others do something or vice versa.</li>\
+            <li>you allow someone to do something or vice versa.</li>\
+            <li>you trigger certain emotions in others or vice versa.</li>\
+        </ol>\
+        <ul>\
+            <caption>this commanding form is...</caption>\
+            <li>Converted verbs are type 2 verbs</li>\
+            <li>Present or past polite,regular and following negated forms do exist.</li>\
+        </ul>'+
+        '<section>\
+            <h3 class="centerText">How to Convert</h3>\
+            <ul class="noBulletPt">\
+                <li>For type 1 verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>change</emphB>\
+                                <emphR>う type ending to あ type ending</emphR></li>\
+                            <li><emphB>append</emphB>\
+                                <emphR> せる at the end</emphR>.</li>\
+                            <li>For <emphB>う ending</emphB>,\
+                                <emphB>change</emphB> to <emphR>わ</emphR>\
+                                AND SO ON.</li>\
+                        </ol>\
+                    </blockquote>'+
+                    '<ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="き">聞く</fg></emphB>\
+                            -><emphB><fg t="き">聞</fg></emphB><emphR>かせる</emphR>\
+                            <div class="indented">\
+                                Verb.to listen\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="か">買う</fg></emphB>\
+                            -><emphB><fg t="か">買</fg></emphB><emphR>わせる</emphR>\
+                            <div class="indented">\
+                                Verb.to buy\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="はい">入る</fg></emphB>\
+                            -><emphB><fg t="はい">入</fg></emphB><emphR>らせる</emphR>\
+                            <div class="indented">\
+                                Verb.to enter\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="あそ">遊ぶ</fg></emphB>\
+                            -><emphB><fg t="あそ">遊</fg></emphB><emphR>ばせる</emphR>\
+                            <div class="indented">\
+                                Verb.to hang out\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="かえ">帰る</fg></emphB>\
+                            -><emphB><fg t="かえ">帰</fg></emphB><emphR>らせる</emphR>\
+                            <div class="indented">\
+                                Verb.to go back\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For type 2 verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>Get rid of</emphB>\
+                                <emphR> る　ending</emphR></li>\
+                            <li><emphB>appeend</emphB>\
+                                <emphR> させる at the ending</emphR>.</li>\
+                        </ol>\
+                    </blockquote>\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="た">食べる</fg></emphB>\
+                            -><emphB><fg t="た">食べ</fg></emphB><emphR>させる</emphR>\
+                            <div class="indented">\
+                                Verb.to eat\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ね">寝る</fg></emphB>\
+                            -><emphB><fg t="ね">寝</fg></emphB><emphR>させる</emphR>\
+                            <div class="indented">\
+                                Verb.to sleep\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="み">見る</fg></emphB>\
+                            -><emphB><fg t="み">見</fg></emphB><emphR>させる</emphR>\
+                            <div class="indented">\
+                                Verb.to see\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="き">聞こえる</fg></emphB>\
+                            -><emphB><fg t="き">聞こえ</fg></emphB><emphR>させる</emphR>\
+                            <div class="indented">\
+                                Verb.to hear\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For type 3 verb\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="　">する</fg></emphB>\
+                            -><emphR><fg t=" ">させる</fg></emphR>\
+                            <div class="indented">\
+                                Verb.to do\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="く">来る</fg></emphB>\
+                            -><emphB><fg t="く">来</fg></emphB><emphR>させる</emphR>\
+                            <div class="indented">\
+                                Verb.to come\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">Related Expressions</h3>\
+            <section>\
+                <h4>Aが/は + Bに/を + Verb commding Form</h4>\
+                <blockquote>\
+                    A makes B to do ~.\
+                </blockquote>\
+                <ul>\
+                    <caption>Examples</caption>\
+                    <li><fg t="はは">母</fg><emphR>が</emphR>\
+                        <fg t="わたし">私</fg><emphR>に</emphR>\
+                        <emphB><fg t="べんきょう">勉強</fg>をさせました</emphB>。\
+                        <div class="indented">\
+                            My mother made me study.\
+                        </div>\
+                    </li>\
+                    <li><fg t="せんせい">先生</fg><emphR>は</emphR>\
+                        あの<fg t="がくせい">学生</fg><emphR>に</emphR>\
+                        <emphB><fg t="はし">走</fg>らせるあした</emphB>。\
+                        <div class="indented">\
+                            The teacher made that student run.\
+                        </div>\
+                    </li>\
+                    <li><fg t="あね">姉</fg><emphR>が</emphR>\
+                        <fg t="おとう">弟</fg><emphR>を</emphR>\
+                        <emphB><fg t="お">起</fg>きらせました。</emphB>\
+                        <div class="indented">\
+                            Sister made brother wake up.\
+                        </div>\
+                    </li>\
+                </ul>\
+            </section>'+
+            '<section>\
+                <h4>Verb commding Form+ていただけませんか。</h4>\
+                <blockquote>\
+                    please let me ~\
+                </blockquote>\
+                <ul>\
+                    <caption>Examples</caption>\
+                    <li><fg t="ま">待</fg>たせ<emphR>ていただけませんか。</emphR>\
+                        <div class="indented">\
+                            Would you please wait?\
+                        </div>\
+                    </li>\
+                    <li><fg t="やす">休</fg>ませ<emphR>ていただけませんか。</emphR>\
+                        <div class="indented">\
+                            Would you please let me take a holiday?\
+                        </div>\
+                    </li>\
+                </ul>\
+            </section>\
+        </section>',
     chap35:
         ''
 };
