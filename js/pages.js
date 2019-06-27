@@ -3484,7 +3484,176 @@ const pages = {
             </section>\
         </section>',
     chap35:
-        '',
+        '<h2 class="leftText">chapter35.passive+have/let/make expression</h2>\
+        When you use both commanding form, passive form of verb, you get to translate\
+        as\
+        <ul>\
+            <li>I was forced to ... by ...</li>\
+        </ul>\
+        and you can change this form according to tense, negation, and polite or casualness.'+
+        '<section>\
+            <h3 class="centerText">How to Convert</h3>\
+            <ul class="noBulletPt">\
+                <li>For Type 1 verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>change</emphB>\
+                                <emphR>う type ending to あ type ending</emphR></li>\
+                            <li><emphB>Append</emphB>\
+                                <emphR>せられる</emphR>at the end</li>\
+                            <li>if <emphB>う ending</emphB>,<emphR>change ending to わ\
+                                and do the rest.\
+                            </emphR></li>\
+                        </ol>\
+                    </blockquote>'+
+                    '<ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="か">描く</fg></emphB>\
+                            -><emphB><fg t="か">描</fg></emphB><emphR>かせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to draw -> be forced to draw\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="か">書く</fg></emphB>\
+                            -><emphB><fg t="か">書</fg></emphB><emphR>かせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to write -> be forced to write\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="かよ">通う</fg></emphB>\
+                            -><emphB><fg t="かよ">通</fg></emphB><emphR>わせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to go(regularly) -> be forced to go(regularly)\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="かえ">帰る</fg></emphB>\
+                            -><emphB><fg t="かえ">帰</fg></emphB><emphR>らせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to go back -> be forced to go back\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="か">買う</fg></emphB>\
+                            -><emphB><fg t="か">買</fg></emphB><emphR>わせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to buy -> be forced to buy\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="あそ">遊ぶ</fg></emphB>\
+                            -><emphB><fg t="あそ">遊</fg></emphB><emphR>ばせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to hang out -> be forced to hang out\
+                            </div>\
+                        </li>'+
+                        '<li><emphB><fg t="はい">入る</fg></emphB>\
+                            -><emphB><fg t="はい">入</fg></emphB><emphR>らせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to enter -> be forced to enter\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="おど">踊る</fg></emphB>\
+                            -><emphB><fg t="おど">踊</fg></emphB><emphR>らせられる</emphR>\
+                            <div class="indented">\
+                                Verb.to dance -> be forced to dance\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For Type 2 verb\
+                    <blockquote>\
+                        <ol>\
+                            <li><emphB>get rid of </emphB>\
+                                <emphR>る ending</emphR></li>\
+                            <li><emphB>Append</emphB>\
+                                <emphR>させられる</emphR>at the end</li>\
+                        </ol>\
+                    </blockquote>\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB><fg t="た">食べる</fg></emphB>\
+                            -><emphB><fg t="た">食べ</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to eat -> be forced to eat\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="み">見る</fg></emphB>\
+                            -><emphB><fg t="み">見</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to see -> be forced to see\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="ね">寝る</fg></emphB>\
+                            -><emphB><fg t="ね">寝</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to sleep -> be forced to sleep\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="おぼ">覚える</fg></emphB>\
+                            -><emphB><fg t="おぼ">覚え</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to remember,memorize -> be forced to remember,memorize\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="や">辞める</fg></emphB>\
+                            -><emphB><fg t="や">辞め</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to quit -> be forced to quit\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>'+
+                '<li>For Type 3 verb\
+                    <ul>\
+                        <caption>Examples</caption>\
+                        <li><emphB>する</emphB>\
+                            -><emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to do -> be forced to do\
+                            </div>\
+                        </li>\
+                        <li><emphB><fg t="く">来る</fg></emphB>\
+                            -><emphB><fg t="く">来</fg></emphB>\
+                            <emphR>させられる</emphR>\
+                            <div class="indented">\
+                                Verb.to -> be forced to come\
+                            </div>\
+                        </li>\
+                    </ul>\
+                </li>\
+            </ul>\
+        </section>'+
+        '<section>\
+            Abridged Version:<emphB>させられる</emphB>\
+            -><emphR>される</emphR>\
+            <ul>\
+                <h3>Sample Sentences</h3>\
+                <caption>Make sure you know the original one right first.</caption>\
+                <li><fg t="わたし">私</fg>は<fg t="はは">母</fg>に\
+                    <fg t="べんきょう">勉強</fg>を\
+                    <emphR>させられました。/されました。</emphR>\
+                    <div class="indented">\
+                        I was forced to study by mother.\
+                    </div>\
+                </li>\
+                <li><fg t="さちょう">佐長</fg>に\
+                    <fg t="ざんぎょう">残業</fg>を<emphR>させられました。/されました。</emphR>\
+                    <div class="indented">\
+                        I was forced to do overnight work by boss.\
+                    </div>\
+                </li>\
+                <li><fg t="がくせい">学生</fg>は<fg t="せんせい">先生</fg>に\
+                    <fg t="ほん">本</fg>を\
+                    <fg t="よ">読</fg>ま<emphR>せられました/されました</emphR>\
+                    <div class="indented">\
+                        the student was forced to read the book by the teacher.\
+                    </div>\
+                </li>\
+            </ul>\
+        </section>',
     chap36:
         ''
 };
