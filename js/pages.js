@@ -3484,5 +3484,7 @@ const pages = {
             </section>\
         </section>',
     chap35:
+        '',
+    chap36:
         ''
 };
