@@ -1104,8 +1104,73 @@ const vocab_db = [
         vocabs:[
             {
                 key:1,
-                first:'',
-                second:''
+                first:'上司.じょうし',
+                second:'Noun.상사'
+            },
+            {
+                key:2,
+                first:'部長.ぶちょう',
+                second:'Noun.부장'
+            },
+            {
+                key:3,
+                first:'課長.かちょう',
+                second:'Noun.과장'
+            },
+            {
+                key:4,
+                first:'社長.しゃちょう',
+                second:'Noun.사장'
+            },
+            {
+                key:5,
+                first:'先輩.せんぱい',
+                second:'Noun.선배'
+            },
+            {
+                key:6,
+                first:'後輩.こうはい',
+                second:'Noun.후배'
+            },
+            {
+                key:7,
+                first:'両親.りょうしん',
+                second:'Noun.parents'
+            },
+            {
+                key:8,
+                first:'掃除.そうじ',
+                second:'Noun.청소'
+            },
+            {
+                key:9,
+                first:'家事.かじ',
+                second:'Noun.house chores'
+            },
+            {
+                key:10,
+                first:'残業.ざんぎょう',
+                second:'Noun.late night work'
+            },
+            {
+                key:11,
+                first:'立つ.た',
+                second:'Verb.to stand up'
+            },
+            {
+                key:12,
+                first:'座る.すわ',
+                second:'Verb.to sit down'
+            },
+            {
+                key:13,
+                first:'喜ぶ.よろこ',
+                second:'Verb.to get happy'
+            },
+            {
+                key:14,
+                first:'知り合い.し　あ',
+                second:'Noun.someone you know.'
             }
         ]
     }
